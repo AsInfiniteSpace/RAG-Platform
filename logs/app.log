@@ -1,0 +1,494 @@
+2026-08-03 18:16:54.306 | INFO     | app.main:on_startup:15 - Starting RAG Platform in development mode
+2026-08-03 18:20:32.429 | INFO     | app.main:on_startup:15 - Starting RAG Platform in development mode
+2026-08-04 11:53:05.334 | INFO     | app.main:on_startup:15 - Starting RAG Platform in development mode
+2026-08-04 11:55:52.584 | INFO     | app.main:on_startup:15 - Starting RAG Platform in development mode
+2026-08-04 12:07:37.027 | INFO     | app.main:on_startup:15 - Starting RAG Platform in development mode
+2026-08-04 12:08:05.902 | INFO     | app.main:on_startup:15 - Starting RAG Platform in development mode
+2026-08-04 12:11:10.483 | INFO     | app.main:on_startup:15 - Starting RAG Platform in development mode
+2026-08-04 12:12:50.475 | INFO     | app.main:on_startup:15 - Starting RAG Platform in development mode
+2026-08-04 12:14:28.230 | INFO     | app.main:on_startup:15 - Starting RAG Platform in development mode
+2026-08-04 12:26:52.466 | INFO     | app.main:on_startup:15 - Starting RAG Platform in development mode
+2026-08-04 12:39:44.853 | INFO     | app.main:on_startup:15 - Starting RAG Platform in development mode
+2026-08-04 12:40:10.601 | INFO     | app.main:on_startup:15 - Starting RAG Platform in development mode
+2026-08-04 12:40:39.032 | INFO     | app.main:on_startup:15 - Starting RAG Platform in development mode
+2026-08-04 12:47:41.233 | INFO     | app.main:on_startup:16 - Starting RAG Platform in development mode
+2026-08-04 12:50:30.787 | INFO     | app.main:on_startup:16 - Starting RAG Platform in development mode
+2026-08-04 12:55:07.543 | INFO     | app.main:on_startup:16 - Starting RAG Platform in development mode
+2026-08-04 13:01:37.501 | INFO     | app.main:on_startup:16 - Starting RAG Platform in development mode
+2026-08-04 13:12:39.403 | INFO     | app.main:on_startup:16 - Starting RAG Platform in development mode
+2026-08-04 13:44:03.998 | INFO     | app.main:on_startup:16 - Starting RAG Platform in development mode
+2026-08-04 13:44:51.608 | INFO     | app.main:on_startup:16 - Starting RAG Platform in development mode
+2026-08-04 14:53:47.678 | INFO     | app.main:on_startup:16 - Starting RAG Platform in development mode
+2026-08-04 16:16:39.849 | INFO     | app.main:on_startup:16 - Starting RAG Platform in development mode
+2026-08-04 16:17:05.525 | INFO     | app.main:on_startup:16 - Starting RAG Platform in development mode
+2026-08-04 16:41:03.166 | INFO     | app.main:on_startup:16 - Starting RAG Platform in development mode
+2026-08-04 16:42:06.154 | INFO     | app.main:on_startup:16 - Starting RAG Platform in development mode
+2026-08-04 16:54:49.278 | INFO     | app.main:on_startup:16 - Starting RAG Platform in development mode
+2026-08-04 16:55:29.519 | INFO     | app.main:on_startup:18 - Starting RAG Platform in development mode
+2026-08-04 16:56:07.216 | INFO     | app.main:on_startup:18 - Starting RAG Platform in development mode
+2026-08-04 17:01:39.540 | INFO     | app.api.documents:upload_document:50 - Document uploaded by ddhawan82@gmail.com: sample_Defense_contract.pdf (Contract)
+2026-08-04 17:04:12.733 | INFO     | app.api.documents:delete_document:81 - Document deleted by ddhawan82@gmail.com: sample_Defense_contract.pdf
+2026-08-04 17:05:07.876 | INFO     | app.api.documents:upload_document:50 - Document uploaded by ddhawan82@gmail.com: sample_Defense_contract.pdf (Contract)
+2026-08-04 17:05:22.711 | INFO     | app.api.documents:upload_document:50 - Document uploaded by ddhawan82@gmail.com: sample_Defense_contract.pdf (Contract)
+2026-08-04 17:08:27.067 | INFO     | app.main:on_startup:18 - Starting RAG Platform in development mode
+2026-08-04 17:11:47.415 | INFO     | app.main:on_startup:18 - Starting RAG Platform in development mode
+2026-08-04 17:19:50.968 | INFO     | app.api.documents:upload_document:67 - Document uploaded by ddhawan82@gmail.com: sample_Defense_contract.pdf (Contract)
+2026-08-04 17:19:55.548 | INFO     | app.api.documents:upload_document:35 - Duplicate upload blocked for ddhawan82@gmail.com: sample_Defense_contract.pdf
+2026-08-04 17:28:48.879 | INFO     | app.main:on_startup:18 - Starting RAG Platform in development mode
+2026-08-04 17:44:17.368 | INFO     | app.main:on_startup:18 - Starting RAG Platform in development mode
+2026-08-04 17:44:53.282 | INFO     | app.main:on_startup:18 - Starting RAG Platform in development mode
+2026-08-04 17:48:21.186 | INFO     | app.main:on_startup:18 - Starting RAG Platform in development mode
+2026-08-04 17:51:09.002 | INFO     | app.main:on_startup:18 - Starting RAG Platform in development mode
+2026-08-04 18:45:01.681 | INFO     | app.api.documents:upload_document:34 - Document uploaded by user@example.com: sample2.pdf (doc)
+2026-08-04 18:48:16.256 | INFO     | app.api.documents:upload_document:34 - Document uploaded by ddhawan82@gmail.com: sample2.pdf (doc)
+2026-08-05 13:02:42.350 | INFO     | app.main:on_startup:18 - Starting RAG Platform in development mode
+2026-08-05 13:10:16.013 | INFO     | app.main:on_startup:18 - Starting RAG Platform in development mode
+2026-08-05 13:14:11.945 | INFO     | app.main:on_startup:18 - Starting RAG Platform in development mode
+2026-08-05 13:14:57.999 | INFO     | app.main:on_startup:18 - Starting RAG Platform in development mode
+2026-08-05 13:18:39.259 | INFO     | app.main:on_startup:18 - Starting RAG Platform in development mode
+2026-08-05 13:19:04.481 | INFO     | app.main:on_startup:18 - Starting RAG Platform in development mode
+2026-08-05 13:22:57.532 | INFO     | app.main:on_startup:18 - Starting RAG Platform in development mode
+2026-08-05 13:24:09.523 | INFO     | app.main:on_startup:18 - Starting RAG Platform in development mode
+2026-08-05 13:28:39.760 | INFO     | app.api.documents:upload_document:34 - Document uploaded by ddhawan82@gmail.com: sample.pdf (string)
+2026-08-05 13:28:40.026 | INFO     | app.worker:process_document:20 - Processing document: sample.pdf (string)
+2026-08-05 13:28:40.071 | INFO     | app.worker:process_document:27 - Document ready: sample.pdf
+2026-08-05 13:37:52.930 | INFO     | app.api.documents:upload_document:34 - Document uploaded by ddhawan82@gmail.com: sample2.pdf (reserach_doc)
+2026-08-05 13:37:53.422 | INFO     | app.worker:process_document:20 - Processing document: sample2.pdf (reserach_doc)
+2026-08-05 13:37:53.436 | INFO     | app.worker:process_document:27 - Document ready: sample2.pdf
+2026-08-05 13:48:29.016 | INFO     | app.api.documents:upload_document:34 - Document uploaded by ddhawan82@gmail.com: sample.pdf (tabular)
+2026-08-05 13:48:29.264 | INFO     | app.worker:process_document:24 - Processing document: sample.pdf (tabular)
+2026-08-05 13:48:29.664 | INFO     | app.worker:process_document:52 - Extracted 2 text pages and 2 tables from sample.pdf
+2026-08-05 13:56:51.260 | INFO     | app.api.documents:upload_document:34 - Document uploaded by ddhawan82@gmail.com: sample2.pdf (research_doc)
+2026-08-05 13:56:51.311 | INFO     | app.worker:process_document:24 - Processing document: sample2.pdf (research_doc)
+2026-08-05 13:56:52.477 | INFO     | app.worker:process_document:52 - Extracted 7 text pages and 0 tables from sample2.pdf
+2026-08-05 14:01:33.030 | INFO     | app.api.documents:upload_document:34 - Document uploaded by ddhawan82@gmail.com: sample_Defense_contract.pdf (contract)
+2026-08-05 14:01:33.212 | INFO     | app.worker:process_document:24 - Processing document: sample_Defense_contract.pdf (contract)
+2026-08-05 14:01:59.599 | INFO     | app.worker:process_document:52 - Extracted 83 text pages and 34 tables from sample_Defense_contract.pdf
+2026-08-05 14:31:22.631 | INFO     | app.main:on_startup:18 - Starting RAG Platform in development mode
+2026-08-05 14:44:25.593 | INFO     | app.api.documents:upload_document:34 - Document uploaded by ddhawan82@gmail.com: sample2.pdf (research_doc)
+2026-08-05 14:44:26.100 | INFO     | app.worker:process_document:24 - Processing document: sample2.pdf (research_doc)
+2026-08-05 14:44:28.764 | INFO     | app.worker:process_document:52 - Extracted 7 text pages and 7 tables from sample2.pdf
+2026-08-05 15:17:20.247 | INFO     | app.main:on_startup:18 - Starting RAG Platform in development mode
+2026-08-05 15:19:38.224 | INFO     | app.api.documents:upload_document:34 - Document uploaded by ddhawan82@gmail.com: sample2.pdf (research_doc)
+2026-08-05 15:19:38.770 | INFO     | app.worker:process_document:24 - Processing document: sample2.pdf (research_doc)
+2026-08-05 15:19:39.972 | INFO     | app.worker:process_document:52 - Extracted 7 text pages and 0 tables from sample2.pdf
+2026-08-05 19:12:38.689 | INFO     | app.main:on_startup:18 - Starting RAG Platform in development mode
+2026-08-05 19:24:34.232 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 09:24:31.598 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 09:32:11.430 | INFO     | app.api.documents:upload_document:34 - Document uploaded by user1@example.com: sample2.pdf (Reserach_doc)
+2026-08-06 09:32:11.842 | INFO     | app.worker:process_document:26 - Processing document: sample2.pdf (Reserach_doc)
+2026-08-06 09:32:13.250 | INFO     | app.worker:process_document:52 - Extracted 7 text pages and 0 tables from sample2.pdf
+2026-08-06 09:32:13.462 | INFO     | app.worker:process_document:83 - Created 14 chunks for sample2.pdf
+2026-08-06 09:50:59.032 | INFO     | app.api.documents:upload_document:34 - Document uploaded by user1@example.com: sample_Defense_contract.pdf (contract)
+2026-08-06 09:50:59.354 | ERROR    | app.worker:process_document:87 - Failed to process document 3c08fa6b-24c0-4fe2-9d31-4afc4895c2a0: (psycopg2.OperationalError) could not receive data from server: Software caused connection abort (0x00002745/10053)
+
+[SQL: SELECT documents.id AS documents_id, documents.owner_id AS documents_owner_id, documents.filename AS documents_filename, documents.file_path AS documents_file_path, documents.file_hash AS documents_file_hash, documents.document_type AS documents_document_type, documents.status AS documents_status, documents.created_at AS documents_created_at 
+FROM documents 
+WHERE documents.id = %(id_1)s::UUID 
+ LIMIT %(param_1)s]
+[parameters: {'id_1': '3c08fa6b-24c0-4fe2-9d31-4afc4895c2a0', 'param_1': 1}]
+(Background on this error at: https://sqlalche.me/e/20/e3q8)
+2026-08-06 10:10:50.755 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 10:17:50.371 | INFO     | app.api.documents:upload_document:34 - Document uploaded by user1@example.com: sample_Defense_contract.pdf (contract)
+2026-08-06 10:17:50.613 | INFO     | app.worker:process_document:26 - Processing document: sample_Defense_contract.pdf (contract)
+2026-08-06 10:18:15.647 | INFO     | app.worker:process_document:52 - Extracted 83 text pages and 34 tables from sample_Defense_contract.pdf
+2026-08-06 10:18:15.976 | INFO     | app.worker:process_document:83 - Created 178 chunks for sample_Defense_contract.pdf
+2026-08-06 10:53:28.361 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 10:53:47.037 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 10:54:52.073 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 10:56:25.813 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 10:56:55.546 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 11:06:12.815 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 11:24:37.237 | INFO     | app.api.documents:upload_document:34 - Document uploaded by user1@example.com: sample_Defense_contract.pdf (contract)
+2026-08-06 11:24:37.591 | INFO     | app.worker:process_document:27 - Processing document: sample_Defense_contract.pdf (contract)
+2026-08-06 11:24:59.967 | ERROR    | app.worker:process_document:90 - Failed to process document f6e9bc4b-1b87-4a1c-b082-2e8f0798a6f9: 'page_number' is an invalid keyword argument for DocumentTable
+2026-08-06 11:30:51.945 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 11:38:02.697 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 11:40:09.555 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 11:44:12.234 | INFO     | app.api.documents:upload_document:34 - Document uploaded by user@example.com: sample_Defense_contract.pdf (contract)
+2026-08-06 11:44:55.760 | INFO     | app.worker:process_document:27 - Processing document: sample_Defense_contract.pdf (contract)
+2026-08-06 11:45:17.424 | ERROR    | app.worker:process_document:91 - Failed to process document adc1c334-c7cc-433f-9dfd-00a82550564b: 'end_page'
+2026-08-06 11:56:55.138 | INFO     | app.api.documents:upload_document:34 - Document uploaded by user@example.com: sample_Defense_contract.pdf (contract)
+2026-08-06 11:56:55.605 | INFO     | app.worker:process_document:27 - Processing document: sample_Defense_contract.pdf (contract)
+2026-08-06 11:57:20.775 | ERROR    | app.worker:process_document:91 - Failed to process document c7356db8-d533-4bed-9e40-e8650c90bb56: 'end_page'
+2026-08-06 12:10:25.803 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 12:11:33.868 | INFO     | app.api.documents:upload_document:34 - Document uploaded by user@example.com: sample_Defense_contract.pdf (contract)
+2026-08-06 12:11:34.377 | INFO     | app.worker:process_document:27 - Processing document: sample_Defense_contract.pdf (contract)
+2026-08-06 12:12:00.853 | ERROR    | app.worker:process_document:92 - Failed to process document e3c6777a-50dc-4999-b564-74a624e30f42: name 'tabl' is not defined
+2026-08-06 12:12:29.926 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 12:12:32.831 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 12:15:11.716 | INFO     | app.api.documents:upload_document:34 - Document uploaded by user1@example.com: sample_Defense_contract.pdf (contract)
+2026-08-06 12:15:12.073 | INFO     | app.worker:process_document:27 - Processing document: sample_Defense_contract.pdf (contract)
+2026-08-06 12:15:35.051 | INFO     | app.worker:process_document:55 - Extracted 83 text pages and 34 tables from sample_Defense_contract.pdf
+2026-08-06 12:15:35.315 | INFO     | app.worker:process_document:88 - Created 174 chunks for sample_Defense_contract.pdf
+2026-08-06 12:26:56.706 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 12:28:04.481 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 12:29:31.037 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 12:32:54.477 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 12:34:03.491 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 12:37:06.538 | INFO     | app.api.documents:upload_document:34 - Document uploaded by user1@example.com: sample_Defense_contract.pdf (contract)
+2026-08-06 12:37:06.986 | INFO     | app.worker:process_document:27 - Processing document: sample_Defense_contract.pdf (contract)
+2026-08-06 12:37:30.427 | INFO     | app.worker:process_document:55 - Extracted 83 text pages and 34 tables from sample_Defense_contract.pdf
+2026-08-06 12:37:30.556 | ERROR    | app.worker:process_document:92 - Failed to process document aea7be7c-08c8-4a75-acc8-b8c8c63733af: (psycopg2.errors.UndefinedColumn) column "start_page" of relation "document_chunks" does not exist
+LINE 1: INSERT INTO document_chunks (id, document_id, start_page, en...
+                                                      ^
+
+[SQL: INSERT INTO document_chunks (id, document_id, start_page, end_page, chunk_index, content, chunk_type, created_at) VALUES (%(id__0)s::UUID, %(document_id__0)s::UUID, %(start_page__0)s, %(end_page__0)s, %(chunk_index__0)s, %(content__0)s, %(chunk_type_ ... 28643 characters truncated ... %(end_page__173)s, %(chunk_index__173)s, %(content__173)s, %(chunk_type__173)s, %(created_at__173)s)]
+[parameters: {'end_page__0': 1, 'chunk_type__0': 'text', 'id__0': UUID('e658744f-1e2f-456f-92c7-2f778aee14eb'), 'chunk_index__0': 0, 'created_at__0': datetime.datetime(2026, 8, 6, 7, 7, 30, 526492), 'content__0': 'CHAPTER VI\nSTANDARD CONTRACT DOCUMENT\nAgreement between the Government of the Republic of India, Ministry of Defence\nand\n(Name of the Company) fo ... (515 characters truncated) ... ICLE 14 AIR LIFT\nARTICLE 15 LIQUIDATED DAMAGES\nARTICLE 16 DENIAL CLAUSE\nARTICLE 17 JOINT RECEIPT INSPECTION (JRI) IN INDIA\nARTICLE 18 WARRANTY\n1', 'start_page__0': 1, 'document_id__0': UUID('aea7be7c-08c8-4a75-acc8-b8c8c63733af'), 'end_page__1': 2, 'chunk_type__1': 'text', 'id__1': UUID('0c7acc32-dd0b-42bb-91ef-7559f661339b'), 'chunk_index__1': 1, 'created_at__1': datetime.datetime(2026, 8, 6, 7, 7, 30, 526506), 'content__1': 'ARTICLE 19 INDIGENOUS CONTENT (IC)\nARTICLE 20 CLAIMS\nARTICLE 21 TAXES AND DUTIES\nARTICLE 22 TERMINATION\nARTICLE 23 LAW\nARTICLE 24 ARBITRATION\nA ... (410 characters truncated) ... NGINEERING SUPPORT PACKAGE\nARTICLE 38 ACCESSES TO BOOK OF ACCOUNTS\nARTICLE 39 SEVERABILITY\nARTICLE 40 SURVIVAL AFTER CANCELLATION OR EXPIRATION\n2', 'start_page__1': 2, 'document_id__1': UUID('aea7be7c-08c8-4a75-acc8-b8c8c63733af'), 'end_page__2': 3, 'chunk_type__2': 'text', 'id__2': UUID('d215ed13-c054-424f-9a2b-0238c8b2be9c'), 'chunk_index__2': 2, 'created_at__2': datetime.datetime(2026, 8, 6, 7, 7, 30, 526514), 'content__2': 'ANNEXURES\nANNEXURE I STATEMENT OF PRICES & QUANTITIES\nANNEXURE II TECHNICAL SPECIFICATIONS\nANNEXURE III STATEMENT OF WORK (SOW) AND DELIVERY\nSCHE ... (344 characters truncated) ... ANNEXURE VII QUANTITY CLAIM\nANNEXURE VIII QUALITY CLAIM\nANNEXURE IX PRICES BREAKDOWN OF SUPPLIES AND SERVICES\nANNEXURE X LETTER OF CREDIT\n****\n3', 'start_page__2': 3, 'document_id__2': UUID('aea7be7c-08c8-4a75-acc8-b8c8c63733af'), 'end_page__3': 4, 'chunk_type__3': 'text', 'id__3': UUID('f02633a8-1e7c-4840-a93b-be6b531fc65f'), 'chunk_index__3': 3, 'created_at__3': datetime.datetime(2026, 8, 6, 7, 7, 30, 526520), 'content__3': 'CONTRACT NO.( )\nDATED (_______ )\nPREAMBLE\n1. This Contract is made on this day, the (date) day of (Month & Year) in New\nDelhi, between the Presid ... (1526 characters truncated) ... ________, which inherently includes all Articles and its listed Annexures\nand Appendices, and any amendments thereto.\n(b) “Deliverables” shall mean', 'start_page__3': 4, 'document_id__3': UUID('aea7be7c-08c8-4a75-acc8-b8c8c63733af'), 'end_page__4': 4, 'chunk_type__4': 'text', 'id__4': UUID('27589621-e56a-4660-81f6-30c06b754752'), 'chunk_index__4': 4, 'created_at__4': datetime.datetime(2026, 8, 6, 7, 7, 30, 526526), 'content__4': ' Schedules.\n(a) “Contract” shall mean this present document reference: Contract No.\n_________________, which inherently includes all Articles and i ... (686 characters truncated) ... \ndocuments and Contracts forming part hereof or referred to herein shall, in the event of any\nconflict between them, be in the following order:-\n4', 'start_page__4': 4, 'document_id__4': UUID('aea7be7c-08c8-4a75-acc8-b8c8c63733af'), 'end_page__5': 5, 'chunk_type__5': 'text', 'id__5': UUID('b586c25f-4410-4c3e-a1a7-5bce748711be'), 'chunk_index__5': 5, 'created_at__5': datetime.datetime(2026, 8, 6, 7, 7, 30, 526533), 'content__5': '(i) this Contract; and\n(ii) all other documents forming part hereof or referred to herein\n4. Subject to the provisions of the Contract, in case of  ... (1590 characters truncated) ... the acquisition of ___(nomenclature of the\nequipment)] and accompanied accessories according to the technical specifications\nstipulated in Annexure', 'start_page__5': 5, 'document_id__5': UUID('aea7be7c-08c8-4a75-acc8-b8c8c63733af'), 'end_page__6': 5, 'chunk_type__6': 'text' ... 1292 parameters truncated ... 'start_page__167': 78, 'document_id__167': UUID('aea7be7c-08c8-4a75-acc8-b8c8c63733af'), 'end_page__168': 78, 'chunk_type__168': 'table', 'id__168': UUID('4b326a1b-7655-44ce-b0ef-18e521ccd5d9'), 'chunk_index__168': 168, 'created_at__168': datetime.datetime(2026, 8, 6, 7, 7, 30, 527325), 'content__168': 'Sl\nNo | Sl. No\nof Offer | Part\nNo. | Nomenclature | Schematic\nref. | No.\nper\neqpt | Unit\ncost in\nUSD $ | Total\ncost in\nUSD $ | Remarks\n1. | 1 | 220124 | Sensor NO2 | S1 |  |  |  | \n2. | 2 | 943253 | Sensor Membrane |  |  |  |  | \nTotal |  |  |  |  |  |  | --------- | ', 'start_page__168': 78, 'document_id__168': UUID('aea7be7c-08c8-4a75-acc8-b8c8c63733af'), 'end_page__169': 79, 'chunk_type__169': 'table', 'id__169': UUID('c413aa9a-b1ae-4072-a110-8d6cf0bf4c05'), 'chunk_index__169': 169, 'created_at__169': datetime.datetime(2026, 8, 6, 7, 7, 30, 527329), 'content__169': 'Sl\nNo | Sl. No\nof Offer | Part\nNo. | Nomenclature | Schematic\nref. | No.\nper\neqpt | Unit\ncost in\nUSD $ | Total\ncost in\nUSD $ | Remarks\n1.  ... (150 characters truncated) ...   |  | \n1. | 16 | 943021 | External\nbattery pack |  | 1 |  |  | \n |  |  |  |  |  |  |  | \n |  |  |  |  |  |  |  | \nTotal |  |  |  |  |  |  |  | ', 'start_page__169': 78, 'document_id__169': UUID('aea7be7c-08c8-4a75-acc8-b8c8c63733af'), 'end_page__170': 79, 'chunk_type__170': 'table', 'id__170': UUID('e62c3f92-3895-4358-bee1-b5ee32541bc0'), 'chunk_index__170': 170, 'created_at__170': datetime.datetime(2026, 8, 6, 7, 7, 30, 527334), 'content__170': 'Sl\nNo | Sl. No\nof Offer | Part\nNo. | Nomenclature | Schematic\nref. | No.\nper\neqpt | Unit\ncost in\nUSD $ | Total\ncost in\nUSD $ | Remarks\n1. | 12 | 943046 | RS232 Cable |  | 1 |  |  | \n | Total | ----- |  |  |  |  |  | ', 'start_page__170': 79, 'document_id__170': UUID('aea7be7c-08c8-4a75-acc8-b8c8c63733af'), 'end_page__171': 79, 'chunk_type__171': 'table', 'id__171': UUID('e568fa18-8139-479a-bc1c-4db4139a4c01'), 'chunk_index__171': 171, 'created_at__171': datetime.datetime(2026, 8, 6, 7, 7, 30, 527343), 'content__171': 'Sl\nNo | Sl. No\nof Offer | Part\nNo. | Nomenclature | Schematic\nref. | No.\nper\neqpt | Unit\ncost in\nUSD $ | Total\ncost in\nUSD $ | Remarks\n1. |  | 943018 | Audio Ear Set |  | 1 |  |  | spare\n |  |  |  |  |  |  |  | \nTotal |  |  |  |  |  |  |  | ', 'start_page__171': 79, 'document_id__171': UUID('aea7be7c-08c8-4a75-acc8-b8c8c63733af'), 'end_page__172': 80, 'chunk_type__172': 'table', 'id__172': UUID('3364b3e3-dd44-467a-b94c-29d5b275781d'), 'chunk_index__172': 172, 'created_at__172': datetime.datetime(2026, 8, 6, 7, 7, 30, 527348), 'content__172': 'Sl\nNo | Sl. No\nof Offer | Part\nNo. | Nomenclature | No.\nper\neqpt | Unit cost\nin USD $ | Total cost\nin USD $ | Remarks\n1. |  | TJ 3000 | Test Jig EVD |  |  |  | Component\nLevel Checks\nManufacture\nSupplied\n |  |  |  |  |  |  | \nTotal |  |  |  |  |  |  | ', 'start_page__172': 80, 'document_id__172': UUID('aea7be7c-08c8-4a75-acc8-b8c8c63733af'), 'end_page__173': 82, 'chunk_type__173': 'table', 'id__173': UUID('89186406-5bc8-4395-9582-029dcab85710'), 'chunk_index__173': 173, 'created_at__173': datetime.datetime(2026, 8, 6, 7, 7, 30, 527353), 'content__173': 'Stage | Amount | Validity Period\n |  | ', 'start_page__173': 82, 'document_id__173': UUID('aea7be7c-08c8-4a75-acc8-b8c8c63733af')}]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2026-08-06 12:50:12.625 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 12:58:19.331 | INFO     | app.api.documents:upload_document:34 - Document uploaded by user@example.com: sample_Defense_contract.pdf (contract)
+2026-08-06 12:58:19.713 | INFO     | app.worker:process_document:27 - Processing document: sample_Defense_contract.pdf (contract)
+2026-08-06 12:58:43.624 | INFO     | app.worker:process_document:55 - Extracted 83 text pages and 34 tables from sample_Defense_contract.pdf
+2026-08-06 12:58:43.908 | INFO     | app.worker:process_document:88 - Created 174 chunks for sample_Defense_contract.pdf
+2026-08-06 14:04:31.470 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 14:05:18.153 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 14:06:01.005 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 14:09:05.824 | INFO     | app.api.documents:upload_document:34 - Document uploaded by user@example.com: sample_Defense_contract.pdf (contract)
+2026-08-06 14:09:06.219 | INFO     | app.worker:process_document:27 - Processing document: sample_Defense_contract.pdf (contract)
+2026-08-06 14:09:28.162 | INFO     | app.worker:process_document:55 - Extracted 83 text pages and 34 tables from sample_Defense_contract.pdf
+2026-08-06 14:09:28.580 | INFO     | app.worker:process_document:90 - Created 174 chunks for sample_Defense_contract.pdf
+2026-08-06 14:17:50.295 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 14:18:31.719 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 14:20:05.401 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 14:22:46.605 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 14:27:35.562 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 14:37:37.756 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 14:40:42.013 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 14:47:09.749 | INFO     | app.api.documents:upload_document:34 - Document uploaded by user@example.com: sample.pdf (sample)
+2026-08-06 14:47:10.237 | INFO     | app.worker:process_document:28 - Processing document: sample.pdf (sample)
+2026-08-06 14:47:10.705 | INFO     | app.worker:process_document:56 - Extracted 2 text pages and 2 tables from sample.pdf
+2026-08-06 14:47:10.732 | INFO     | app.worker:process_document:89 - Created 7 chunks for sample.pdf
+2026-08-06 14:47:18.408 | INFO     | app.worker:process_document:101 - Embedded 7 chunks for sample.pdf
+2026-08-06 15:34:44.604 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 15:38:42.343 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 15:38:58.261 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 15:40:56.377 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 15:46:24.313 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 15:46:33.078 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 15:46:38.002 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 16:05:26.951 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 16:05:35.826 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 16:06:55.386 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 16:11:05.968 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 16:13:50.128 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 16:34:41.731 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 16:36:58.998 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 16:38:56.815 | INFO     | app.main:on_startup:31 - Starting RAG Platform in development mode
+2026-08-06 16:39:19.763 | INFO     | app.main:on_startup:32 - Starting RAG Platform in development mode
+2026-08-06 16:39:30.393 | INFO     | app.main:on_startup:33 - Starting RAG Platform in development mode
+2026-08-06 16:40:22.456 | INFO     | app.main:on_startup:33 - Starting RAG Platform in development mode
+2026-08-06 16:40:36.060 | INFO     | app.main:on_startup:33 - Starting RAG Platform in development mode
+2026-08-06 16:45:01.045 | INFO     | app.api.documents:upload_document:36 - Document uploaded by user1@example.com: invoice.pdf (DocumentType.invoice)
+2026-08-06 16:45:01.796 | INFO     | app.worker:process_document:28 - Processing document: invoice.pdf (invoice)
+2026-08-06 16:45:01.928 | INFO     | app.worker:process_document:56 - Extracted 1 text pages and 3 tables from invoice.pdf
+2026-08-06 16:45:01.994 | INFO     | app.worker:process_document:89 - Created 4 chunks for invoice.pdf
+2026-08-06 16:45:14.718 | INFO     | app.worker:process_document:101 - Embedded 4 chunks for invoice.pdf
+2026-08-06 16:51:13.418 | INFO     | app.api.documents:upload_document:36 - Document uploaded by user1@example.com: Preprint version2 6july26.pdf (DocumentType.research_paper)
+2026-08-06 16:51:13.653 | INFO     | app.worker:process_document:28 - Processing document: Preprint version2 6july26.pdf (research_paper)
+2026-08-06 16:51:14.940 | INFO     | app.worker:process_document:56 - Extracted 7 text pages and 0 tables from Preprint version2 6july26.pdf
+2026-08-06 16:51:14.987 | INFO     | app.worker:process_document:89 - Created 14 chunks for Preprint version2 6july26.pdf
+2026-08-06 16:51:20.980 | INFO     | app.worker:process_document:101 - Embedded 14 chunks for Preprint version2 6july26.pdf
+2026-08-06 18:04:12.327 | INFO     | app.main:on_startup:33 - Starting RAG Platform in development mode
+2026-08-06 18:14:30.290 | INFO     | app.main:on_startup:33 - Starting RAG Platform in development mode
+2026-08-06 18:15:46.850 | INFO     | app.main:on_startup:33 - Starting RAG Platform in development mode
+2026-08-06 18:27:20.584 | INFO     | app.main:on_startup:33 - Starting RAG Platform in development mode
+2026-08-06 18:28:46.514 | INFO     | app.main:on_startup:33 - Starting RAG Platform in development mode
+2026-08-06 18:29:54.659 | INFO     | app.main:on_startup:33 - Starting RAG Platform in development mode
+2026-08-06 18:42:12.511 | INFO     | app.main:on_startup:33 - Starting RAG Platform in development mode
+2026-08-06 18:43:02.482 | INFO     | app.main:on_startup:33 - Starting RAG Platform in development mode
+2026-08-06 18:51:05.571 | INFO     | app.main:on_startup:33 - Starting RAG Platform in development mode
+2026-08-06 18:56:24.986 | INFO     | app.main:on_startup:33 - Starting RAG Platform in development mode
+2026-08-07 10:34:22.251 | INFO     | app.main:on_startup:33 - Starting RAG Platform in development mode
+2026-08-07 10:51:32.259 | INFO     | app.main:on_startup:33 - Starting RAG Platform in development mode
+2026-08-07 10:54:47.229 | INFO     | app.main:on_startup:33 - Starting RAG Platform in development mode
+2026-08-07 10:56:39.649 | INFO     | app.main:on_startup:33 - Starting RAG Platform in development mode
+2026-08-07 10:57:05.050 | INFO     | app.main:on_startup:33 - Starting RAG Platform in development mode
+2026-08-07 11:05:55.678 | INFO     | app.main:on_startup:33 - Starting RAG Platform in development mode
+2026-08-07 11:06:28.058 | INFO     | app.main:on_startup:35 - Starting RAG Platform in development mode
+2026-08-07 12:14:20.360 | INFO     | app.api.documents:upload_document:36 - Document uploaded by user1@example.com: TS-2024-HALE-SENSOR-001_Technical_Specification.pdf (DocumentType.contract)
+2026-08-07 12:15:15.127 | INFO     | app.worker:process_document:28 - Processing document: TS-2024-HALE-SENSOR-001_Technical_Specification.pdf (contract)
+2026-08-07 12:15:17.326 | INFO     | app.worker:process_document:56 - Extracted 8 text pages and 8 tables from TS-2024-HALE-SENSOR-001_Technical_Specification.pdf
+2026-08-07 12:15:17.423 | INFO     | app.worker:process_document:89 - Created 35 chunks for TS-2024-HALE-SENSOR-001_Technical_Specification.pdf
+2026-08-07 12:15:24.804 | INFO     | app.worker:process_document:101 - Embedded 35 chunks for TS-2024-HALE-SENSOR-001_Technical_Specification.pdf
+2026-08-07 13:30:39.312 | INFO     | app.main:on_startup:35 - Starting RAG Platform in development mode
+2026-08-07 13:36:49.489 | INFO     | app.main:on_startup:35 - Starting RAG Platform in development mode
+2026-08-07 13:38:56.749 | INFO     | app.main:on_startup:36 - Starting RAG Platform in development mode
+2026-08-07 13:39:07.518 | INFO     | app.main:on_startup:37 - Starting RAG Platform in development mode
+2026-08-07 14:37:35.519 | INFO     | app.main:on_startup:37 - Starting RAG Platform in development mode
+2026-08-07 14:51:07.297 | INFO     | app.main:on_startup:37 - Starting RAG Platform in development mode
+2026-08-07 14:52:44.133 | INFO     | app.main:on_startup:37 - Starting RAG Platform in development mode
+2026-08-07 14:54:56.500 | INFO     | app.main:on_startup:37 - Starting RAG Platform in development mode
+2026-08-07 14:58:00.735 | INFO     | app.main:on_startup:37 - Starting RAG Platform in development mode
+2026-08-07 14:58:15.787 | INFO     | app.main:on_startup:38 - Starting RAG Platform in development mode
+2026-08-07 14:58:27.587 | INFO     | app.main:on_startup:39 - Starting RAG Platform in development mode
+2026-08-07 15:05:34.982 | INFO     | app.main:on_startup:39 - Starting RAG Platform in development mode
+2026-08-07 15:09:42.958 | INFO     | app.main:on_startup:39 - Starting RAG Platform in development mode
+2026-08-07 15:24:39.536 | INFO     | app.main:on_startup:39 - Starting RAG Platform in development mode
+2026-08-07 17:39:46.494 | INFO     | app.api.documents:upload_document:36 - Document uploaded by user1@example.com: Dhiirajj_CV.pdf (DocumentType.resume)
+2026-08-07 17:39:47.468 | INFO     | app.worker:process_document:28 - Processing document: Dhiirajj_CV.pdf (resume)
+2026-08-07 17:39:48.416 | INFO     | app.worker:process_document:56 - Extracted 3 text pages and 0 tables from Dhiirajj_CV.pdf
+2026-08-07 17:39:48.530 | INFO     | app.worker:process_document:89 - Created 3 chunks for Dhiirajj_CV.pdf
+2026-08-07 17:39:53.139 | INFO     | app.worker:process_document:101 - Embedded 3 chunks for Dhiirajj_CV.pdf
+2026-08-07 17:52:46.274 | INFO     | app.api.documents:upload_documents_batch:65 - Batch upload success by user1@example.com: resume.pdf
+2026-08-07 17:52:46.298 | INFO     | app.api.documents:upload_documents_batch:65 - Batch upload success by user1@example.com: Thachinee_Phenglengpon_Resume_Final (1).pdf
+2026-08-07 17:52:46.517 | INFO     | app.worker:process_document:28 - Processing document: resume.pdf (resume)
+2026-08-07 17:52:46.557 | WARNING  | app.services.extraction_service:extract_pdf_content:21 - Page 1 of storage\11c1c18b-770e-47d4-8f18-01addd21d026\c6f23687-484d-4d3a-a73e-600759caf95a_resume.pdf had no extractable content (possibly scanned/image-based)
+2026-08-07 17:52:46.558 | ERROR    | app.worker:process_document:105 - Failed to process document c6f23687-484d-4d3a-a73e-600759caf95a: No extractable content found in document
+2026-08-07 17:52:46.575 | INFO     | app.worker:process_document:28 - Processing document: Thachinee_Phenglengpon_Resume_Final (1).pdf (resume)
+2026-08-07 17:52:47.662 | INFO     | app.worker:process_document:56 - Extracted 1 text pages and 1 tables from Thachinee_Phenglengpon_Resume_Final (1).pdf
+2026-08-07 17:52:47.673 | INFO     | app.worker:process_document:89 - Created 4 chunks for Thachinee_Phenglengpon_Resume_Final (1).pdf
+2026-08-07 17:52:50.533 | INFO     | app.worker:process_document:101 - Embedded 4 chunks for Thachinee_Phenglengpon_Resume_Final (1).pdf
+2026-08-08 10:56:10.728 | INFO     | app.main:on_startup:39 - Starting RAG Platform in development mode
+2026-08-08 12:23:55.960 | INFO     | app.api.documents:upload_document:36 - Document uploaded by user@example.com: Oded_19-06-2026.pdf (DocumentType.invoice)
+2026-08-08 12:26:49.416 | INFO     | app.worker:process_document:28 - Processing document: Oded_19-06-2026.pdf (invoice)
+2026-08-08 12:26:49.562 | INFO     | app.worker:process_document:56 - Extracted 1 text pages and 1 tables from Oded_19-06-2026.pdf
+2026-08-08 12:26:49.644 | INFO     | app.worker:process_document:89 - Created 2 chunks for Oded_19-06-2026.pdf
+2026-08-08 12:26:52.326 | INFO     | app.worker:process_document:101 - Embedded 2 chunks for Oded_19-06-2026.pdf
+2026-08-08 13:19:42.073 | INFO     | app.main:on_startup:39 - Starting RAG Platform in development mode
+2026-08-08 13:27:13.219 | INFO     | app.main:on_startup:39 - Starting RAG Platform in development mode
+2026-08-08 14:00:41.700 | INFO     | app.main:on_startup:39 - Starting RAG Platform in development mode
+2026-08-08 14:05:00.741 | INFO     | app.main:on_startup:39 - Starting RAG Platform in development mode
+2026-08-08 14:09:33.764 | INFO     | app.main:on_startup:39 - Starting RAG Platform in development mode
+2026-08-08 14:34:26.069 | INFO     | app.main:on_startup:39 - Starting RAG Platform in development mode
+2026-08-08 14:34:50.867 | INFO     | app.main:on_startup:39 - Starting RAG Platform in development mode
+2026-08-08 14:42:58.244 | INFO     | app.main:on_startup:39 - Starting RAG Platform in development mode
+2026-08-08 15:33:05.270 | INFO     | app.main:on_startup:39 - Starting RAG Platform in development mode
+2026-08-08 15:39:08.047 | INFO     | app.main:on_startup:39 - Starting RAG Platform in development mode
+2026-08-08 16:10:58.146 | INFO     | app.main:on_startup:39 - Starting RAG Platform in development mode
+2026-08-08 16:21:02.556 | INFO     | app.services.query_rewrite_service:rewrite_query:28 - Query rewritten: 'what about Tactical-Grade IMU?' -> 'What is the unit price of the Tactical-Grade IMU?'
+2026-08-08 16:25:44.283 | INFO     | app.main:on_startup:39 - Starting RAG Platform in development mode
+2026-08-08 16:29:30.081 | INFO     | app.main:on_startup:39 - Starting RAG Platform in development mode
+2026-08-08 16:30:28.444 | INFO     | app.api.documents:delete_document:106 - Document and all related data deleted by user1@example.com: resume.pdf
+2026-08-08 16:39:22.363 | INFO     | app.main:on_startup:39 - Starting RAG Platform in development mode
+2026-08-08 16:41:35.403 | INFO     | app.main:on_startup:39 - Starting RAG Platform in development mode
+2026-08-08 16:51:47.799 | INFO     | app.main:on_startup:39 - Starting RAG Platform in development mode
+2026-08-08 16:57:45.438 | INFO     | app.main:on_startup:39 - Starting RAG Platform in development mode
+2026-08-08 17:00:24.611 | INFO     | app.main:on_startup:39 - Starting RAG Platform in development mode
+2026-08-08 17:03:00.715 | INFO     | app.services.query_rewrite_service:rewrite_query:28 - Query rewritten: 'what are the main diagnostics in the aper' -> 'What are the main diagnostics in the document?'
+2026-08-08 17:03:38.900 | INFO     | app.services.query_rewrite_service:rewrite_query:28 - Query rewritten: 'any other results' -> 'Are there any other results presented in the document?'
+2026-08-08 17:04:08.539 | INFO     | app.services.query_rewrite_service:rewrite_query:28 - Query rewritten: 'so why didnt you sow the table' -> 'Why didn't you show the table?'
+2026-08-08 17:04:42.023 | INFO     | app.services.query_rewrite_service:rewrite_query:28 - Query rewritten: 'I meant why didn't you display the relevant table.' -> 'Why didn't you display the relevant table?'
+2026-08-08 17:57:02.715 | INFO     | app.main:on_startup:39 - Starting RAG Platform in development mode
+2026-08-08 17:59:45.663 | INFO     | app.services.query_rewrite_service:rewrite_query:28 - Query rewritten: 'For a five-aircraft fleet, how many Closed-Cycle Cryocoolers are recommended as initial fleet spares, and what is the MTBF (hours) of that item as listed in the main BOM table?' -> 'How many Closed-Cycle Cryocoolers are recommended as initial fleet spares for a five-aircraft fleet, and what is the MTBF (hours) of that item as listed in the main BOM table?'
+2026-08-08 18:18:57.393 | INFO     | app.main:on_startup:39 - Starting RAG Platform in development mode
+2026-08-08 18:20:23.978 | INFO     | app.main:on_startup:39 - Starting RAG Platform in development mode
+2026-08-08 18:21:09.391 | INFO     | app.main:on_startup:39 - Starting RAG Platform in development mode
+2026-08-08 18:37:46.285 | INFO     | app.main:on_startup:39 - Starting RAG Platform in development mode
+2026-08-08 18:45:26.608 | INFO     | app.main:on_startup:39 - Starting RAG Platform in development mode
+2026-08-08 18:47:33.985 | INFO     | app.main:on_startup:39 - Starting RAG Platform in development mode
+2026-08-08 18:48:32.910 | WARNING  | app.api.documents:reindex_document:131 - Reindexing TS-2024-HALE-SENSOR-001_Technical_Specification.pdf removed 8 eval question(s) tied to old chunks — these need to be re-added against the new chunks
+2026-08-08 18:48:33.010 | INFO     | app.api.documents:reindex_document:143 - Reindex triggered by user1@example.com: TS-2024-HALE-SENSOR-001_Technical_Specification.pdf
+2026-08-08 18:48:33.522 | INFO     | app.worker:process_document:28 - Processing document: TS-2024-HALE-SENSOR-001_Technical_Specification.pdf (contract)
+2026-08-08 18:48:36.041 | INFO     | app.worker:process_document:56 - Extracted 8 text pages and 8 tables from TS-2024-HALE-SENSOR-001_Technical_Specification.pdf
+2026-08-08 18:48:36.190 | INFO     | app.worker:process_document:89 - Created 35 chunks for TS-2024-HALE-SENSOR-001_Technical_Specification.pdf
+2026-08-08 18:48:41.360 | INFO     | app.worker:process_document:101 - Embedded 35 chunks for TS-2024-HALE-SENSOR-001_Technical_Specification.pdf
+2026-08-09 10:43:48.309 | INFO     | app.main:on_startup:39 - Starting RAG Platform in development mode
+2026-08-09 12:07:30.903 | INFO     | app.main:on_startup:39 - Starting RAG Platform in development mode
+2026-08-09 12:08:27.383 | WARNING  | app.api.documents:reindex_document:131 - Reindexing TS-2024-HALE-SENSOR-001_Technical_Specification.pdf removed 8 eval question(s) tied to old chunks — these need to be re-added against the new chunks
+2026-08-09 12:08:27.506 | INFO     | app.api.documents:reindex_document:143 - Reindex triggered by user1@example.com: TS-2024-HALE-SENSOR-001_Technical_Specification.pdf
+2026-08-09 12:08:28.349 | INFO     | app.worker:process_document:28 - Processing document: TS-2024-HALE-SENSOR-001_Technical_Specification.pdf (contract)
+2026-08-09 12:08:30.907 | INFO     | app.worker:process_document:56 - Extracted 8 text pages and 8 tables from TS-2024-HALE-SENSOR-001_Technical_Specification.pdf
+2026-08-09 12:08:31.132 | INFO     | app.worker:process_document:89 - Created 25 chunks for TS-2024-HALE-SENSOR-001_Technical_Specification.pdf
+2026-08-09 12:08:37.467 | INFO     | app.worker:process_document:101 - Embedded 25 chunks for TS-2024-HALE-SENSOR-001_Technical_Specification.pdf
+2026-08-09 12:33:44.142 | INFO     | app.main:on_startup:39 - Starting RAG Platform in development mode
+2026-08-09 12:46:37.194 | INFO     | app.main:on_startup:39 - Starting RAG Platform in development mode
+2026-08-09 12:47:27.781 | WARNING  | app.api.documents:reindex_document:131 - Reindexing TS-2024-HALE-SENSOR-001_Technical_Specification.pdf removed 1 eval question(s) tied to old chunks — these need to be re-added against the new chunks
+2026-08-09 12:47:27.871 | INFO     | app.api.documents:reindex_document:143 - Reindex triggered by user1@example.com: TS-2024-HALE-SENSOR-001_Technical_Specification.pdf
+2026-08-09 12:47:28.486 | INFO     | app.worker:process_document:28 - Processing document: TS-2024-HALE-SENSOR-001_Technical_Specification.pdf (contract)
+2026-08-09 12:47:32.012 | INFO     | app.worker:process_document:56 - Extracted 8 text pages and 8 tables from TS-2024-HALE-SENSOR-001_Technical_Specification.pdf
+2026-08-09 12:47:32.067 | INFO     | app.worker:process_document:89 - Created 25 chunks for TS-2024-HALE-SENSOR-001_Technical_Specification.pdf
+2026-08-09 12:47:35.159 | INFO     | app.worker:process_document:101 - Embedded 25 chunks for TS-2024-HALE-SENSOR-001_Technical_Specification.pdf
+2026-08-09 12:52:26.415 | WARNING  | app.api.documents:reindex_document:131 - Reindexing TS-2024-HALE-SENSOR-001_Technical_Specification.pdf removed 2 eval question(s) tied to old chunks — these need to be re-added against the new chunks
+2026-08-09 12:52:26.450 | INFO     | app.api.documents:reindex_document:143 - Reindex triggered by user1@example.com: TS-2024-HALE-SENSOR-001_Technical_Specification.pdf
+2026-08-09 12:52:26.790 | INFO     | app.worker:process_document:28 - Processing document: TS-2024-HALE-SENSOR-001_Technical_Specification.pdf (contract)
+2026-08-09 12:52:29.711 | INFO     | app.worker:process_document:56 - Extracted 8 text pages and 8 tables from TS-2024-HALE-SENSOR-001_Technical_Specification.pdf
+2026-08-09 12:52:29.754 | INFO     | app.worker:process_document:89 - Created 25 chunks for TS-2024-HALE-SENSOR-001_Technical_Specification.pdf
+2026-08-09 12:52:34.118 | INFO     | app.worker:process_document:101 - Embedded 25 chunks for TS-2024-HALE-SENSOR-001_Technical_Specification.pdf
+2026-08-09 13:48:54.783 | INFO     | app.main:on_startup:39 - Starting RAG Platform in development mode
+2026-08-09 13:49:43.156 | INFO     | app.main:on_startup:39 - Starting RAG Platform in development mode
+2026-08-09 14:31:59.163 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-09 14:37:28.801 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-09 15:41:31.201 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-09 16:42:08.185 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-09 16:44:44.314 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-09 16:51:28.234 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-09 16:53:05.359 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-09 16:53:39.117 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-09 16:55:10.794 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-09 17:28:33.228 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-09 17:29:09.081 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-09 17:45:29.895 | INFO     | app.api.documents:delete_document:117 - Document and all related data deleted by user1@example.com: invoice.pdf
+2026-08-09 18:08:53.019 | INFO     | app.api.documents:reindex_document:148 - Reindex triggered by user1@example.com: Preprint version2 6july26.pdf
+2026-08-09 18:08:53.580 | INFO     | app.worker:process_document:28 - Processing document: Preprint version2 6july26.pdf (research_paper)
+2026-08-09 18:08:54.916 | INFO     | app.worker:process_document:56 - Extracted 7 text pages and 0 tables from Preprint version2 6july26.pdf
+2026-08-09 18:08:54.977 | INFO     | app.worker:process_document:89 - Created 14 chunks for Preprint version2 6july26.pdf
+2026-08-09 18:09:01.001 | INFO     | app.worker:process_document:101 - Embedded 14 chunks for Preprint version2 6july26.pdf
+2026-08-09 18:45:38.748 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-10 14:04:07.736 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-10 14:59:31.769 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-10 16:25:49.967 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-10 16:36:22.615 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-10 16:58:44.591 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-10 17:07:41.105 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-10 20:45:32.478 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-10 21:07:31.980 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-10 21:10:54.013 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-10 21:12:29.502 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-10 21:17:02.849 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-11 15:55:04.323 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-11 17:35:35.010 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-11 17:47:23.637 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-11 17:56:54.950 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-11 18:35:20.602 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-11 18:41:27.056 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-11 18:50:51.917 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-11 19:00:53.645 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-11 19:05:40.065 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-11 19:06:53.268 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-11 19:08:21.141 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-11 19:17:53.578 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-11 19:29:37.332 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-11 19:32:23.353 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-12 12:36:28.228 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-12 12:50:06.599 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-12 12:54:15.697 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-12 13:01:51.013 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-12 13:05:14.069 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-12 13:13:34.056 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-12 13:24:28.018 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-12 13:28:15.091 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-12 13:39:18.002 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-12 14:13:27.318 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-12 14:18:12.709 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-12 14:27:14.286 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-12 14:41:33.729 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-12 14:44:02.832 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-12 15:07:46.324 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-12 15:12:33.843 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-12 15:28:58.573 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-12 15:34:16.824 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-12 15:52:08.235 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-12 16:29:41.590 | INFO     | app.main:on_startup:50 - Starting RAG Platform in development mode
+2026-08-12 16:33:59.795 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-12 16:36:04.590 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-12 21:39:50.247 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-12 23:09:49.578 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-12 23:13:14.506 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-13 09:08:09.120 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-13 13:56:58.960 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-13 13:59:41.435 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-13 14:05:11.875 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-13 14:06:00.380 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-13 14:10:44.579 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-13 14:13:50.009 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-13 14:13:59.137 | INFO     | app.api.documents:delete_document:128 - Document and all related data (including scoped conversations) deleted by user1@example.com: Dhiirajj_CV.pdf
+2026-08-13 18:08:42.210 | INFO     | app.api.documents:delete_document:128 - Document and all related data (including scoped conversations) deleted by user1@example.com: TS-2024-HALE-SENSOR-001_Technical_Specification.pdf
+2026-08-13 18:08:49.684 | INFO     | app.api.documents:delete_document:128 - Document and all related data (including scoped conversations) deleted by user1@example.com: Preprint version2 6july26.pdf
+2026-08-13 18:08:54.968 | INFO     | app.api.documents:delete_document:128 - Document and all related data (including scoped conversations) deleted by user1@example.com: Thachinee_Phenglengpon_Resume_Final (1).pdf
+2026-08-13 18:25:15.480 | INFO     | app.api.documents:delete_document:128 - Document and all related data (including scoped conversations) deleted by user@user.com: Oded_19-06-2026.pdf
+2026-08-13 18:29:48.320 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-13 18:31:46.675 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-13 18:31:47.041 | INFO     | app.api.documents:upload_document:48 - Document uploaded by user@user.com: Mutual_NDA_and_Confidentiality_Agreement.pdf (DocumentType.contract)
+2026-08-13 18:33:11.065 | INFO     | app.api.documents:upload_document:48 - Document uploaded by user@user.com: TS-2024-HALE-SENSOR-001_Technical_Specification.pdf (DocumentType.contract)
+2026-08-13 18:36:58.868 | INFO     | app.worker:process_document:31 - Processing document: Mutual_NDA_and_Confidentiality_Agreement.pdf (contract)
+2026-08-13 18:37:00.933 | INFO     | app.worker:process_document:59 - Extracted 18 text pages and 0 tables from Mutual_NDA_and_Confidentiality_Agreement.pdf
+2026-08-13 18:37:01.020 | INFO     | app.worker:process_document:92 - Created 31 chunks for Mutual_NDA_and_Confidentiality_Agreement.pdf
+2026-08-13 18:37:01.174 | ERROR    | app.worker:process_document:117 - Failed to process document da287cba-45c9-4f1a-b8ff-9115ae47b094: name 'User' is not defined
+2026-08-13 18:37:01.188 | INFO     | app.worker:process_document:31 - Processing document: TS-2024-HALE-SENSOR-001_Technical_Specification.pdf (contract)
+2026-08-13 18:37:02.978 | INFO     | app.worker:process_document:59 - Extracted 8 text pages and 8 tables from TS-2024-HALE-SENSOR-001_Technical_Specification.pdf
+2026-08-13 18:37:02.993 | INFO     | app.worker:process_document:92 - Created 25 chunks for TS-2024-HALE-SENSOR-001_Technical_Specification.pdf
+2026-08-13 18:37:03.074 | ERROR    | app.worker:process_document:117 - Failed to process document 692c8621-c7c4-4d44-8df6-60e6bdfb28b3: name 'User' is not defined
+2026-08-13 18:42:27.565 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-13 18:42:34.078 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-13 18:49:47.528 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-13 18:49:47.769 | INFO     | app.api.documents:reindex_document:163 - Reindex triggered by user@user.com: Mutual_NDA_and_Confidentiality_Agreement.pdf
+2026-08-13 18:49:47.912 | INFO     | app.worker:process_document:31 - Processing document: Mutual_NDA_and_Confidentiality_Agreement.pdf (contract)
+2026-08-13 18:49:50.104 | INFO     | app.worker:process_document:59 - Extracted 18 text pages and 0 tables from Mutual_NDA_and_Confidentiality_Agreement.pdf
+2026-08-13 18:49:50.117 | INFO     | app.worker:process_document:92 - Created 31 chunks for Mutual_NDA_and_Confidentiality_Agreement.pdf
+2026-08-13 18:49:50.256 | ERROR    | app.worker:process_document:117 - Failed to process document da287cba-45c9-4f1a-b8ff-9115ae47b094: name 'User' is not defined
+2026-08-13 19:02:57.807 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-13 19:03:03.669 | INFO     | app.api.documents:reindex_document:167 - Reindex triggered by user@user.com: TS-2024-HALE-SENSOR-001_Technical_Specification.pdf
+2026-08-13 19:03:04.031 | INFO     | app.worker:process_document:31 - Processing document: TS-2024-HALE-SENSOR-001_Technical_Specification.pdf (contract)
+2026-08-13 19:03:06.210 | INFO     | app.worker:process_document:59 - Extracted 8 text pages and 8 tables from TS-2024-HALE-SENSOR-001_Technical_Specification.pdf
+2026-08-13 19:03:06.226 | INFO     | app.worker:process_document:92 - Created 25 chunks for TS-2024-HALE-SENSOR-001_Technical_Specification.pdf
+2026-08-13 19:03:06.310 | ERROR    | app.worker:process_document:117 - Failed to process document 692c8621-c7c4-4d44-8df6-60e6bdfb28b3: name 'User' is not defined
+2026-08-13 19:04:30.787 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-13 19:04:31.016 | INFO     | app.api.documents:reindex_document:167 - Reindex triggered by user@user.com: Mutual_NDA_and_Confidentiality_Agreement.pdf
+2026-08-13 19:04:31.084 | INFO     | app.worker:process_document:31 - Processing document: Mutual_NDA_and_Confidentiality_Agreement.pdf (contract)
+2026-08-13 19:04:33.651 | INFO     | app.worker:process_document:59 - Extracted 18 text pages and 0 tables from Mutual_NDA_and_Confidentiality_Agreement.pdf
+2026-08-13 19:04:33.662 | INFO     | app.worker:process_document:92 - Created 31 chunks for Mutual_NDA_and_Confidentiality_Agreement.pdf
+2026-08-13 19:04:33.799 | ERROR    | app.worker:process_document:117 - Failed to process document da287cba-45c9-4f1a-b8ff-9115ae47b094: name 'User' is not defined
+2026-08-13 19:16:35.826 | INFO     | app.api.documents:reindex_document:167 - Reindex triggered by user@user.com: Mutual_NDA_and_Confidentiality_Agreement.pdf
+2026-08-13 19:16:36.232 | INFO     | app.worker:process_document:31 - Processing document: Mutual_NDA_and_Confidentiality_Agreement.pdf (contract)
+2026-08-13 19:16:39.021 | INFO     | app.worker:process_document:59 - Extracted 18 text pages and 0 tables from Mutual_NDA_and_Confidentiality_Agreement.pdf
+2026-08-13 19:16:39.037 | INFO     | app.worker:process_document:92 - Created 31 chunks for Mutual_NDA_and_Confidentiality_Agreement.pdf
+2026-08-13 19:16:39.118 | ERROR    | app.worker:process_document:117 - Failed to process document da287cba-45c9-4f1a-b8ff-9115ae47b094: name 'User' is not defined
+2026-08-13 19:16:56.811 | INFO     | app.api.documents:delete_document:128 - Document and all related data (including scoped conversations) deleted by user@user.com: Mutual_NDA_and_Confidentiality_Agreement.pdf
+2026-08-14 09:38:04.599 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-14 09:38:33.964 | ERROR    | app.worker:process_document:29 - Document da287cba-45c9-4f1a-b8ff-9115ae47b094 not found
+2026-08-14 09:47:46.624 | INFO     | app.api.documents:reindex_document:167 - Reindex triggered by user@user.com: TS-2024-HALE-SENSOR-001_Technical_Specification.pdf
+2026-08-14 09:47:47.000 | INFO     | app.worker:process_document:32 - Processing document: TS-2024-HALE-SENSOR-001_Technical_Specification.pdf (contract)
+2026-08-14 09:47:49.271 | INFO     | app.worker:process_document:60 - Extracted 8 text pages and 8 tables from TS-2024-HALE-SENSOR-001_Technical_Specification.pdf
+2026-08-14 09:47:49.393 | INFO     | app.worker:process_document:93 - Created 25 chunks for TS-2024-HALE-SENSOR-001_Technical_Specification.pdf
+2026-08-14 09:47:58.408 | ERROR    | app.worker:process_document:118 - Failed to process document 692c8621-c7c4-4d44-8df6-60e6bdfb28b3: log_usage() missing 1 required positional argument: 'unit'
+2026-08-14 09:56:55.738 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-14 10:03:05.885 | INFO     | app.api.documents:reindex_document:167 - Reindex triggered by user@user.com: TS-2024-HALE-SENSOR-001_Technical_Specification.pdf
+2026-08-14 10:03:06.005 | INFO     | app.worker:process_document:32 - Processing document: TS-2024-HALE-SENSOR-001_Technical_Specification.pdf (contract)
+2026-08-14 10:03:08.930 | INFO     | app.worker:process_document:60 - Extracted 8 text pages and 8 tables from TS-2024-HALE-SENSOR-001_Technical_Specification.pdf
+2026-08-14 10:03:08.942 | INFO     | app.worker:process_document:93 - Created 25 chunks for TS-2024-HALE-SENSOR-001_Technical_Specification.pdf
+2026-08-14 10:03:13.097 | ERROR    | app.worker:process_document:118 - Failed to process document 692c8621-c7c4-4d44-8df6-60e6bdfb28b3: log_usage() missing 1 required positional argument: 'unit'
+2026-08-14 10:07:26.115 | INFO     | app.api.documents:reindex_document:167 - Reindex triggered by user@user.com: TS-2024-HALE-SENSOR-001_Technical_Specification.pdf
+2026-08-14 10:07:26.478 | INFO     | app.worker:process_document:32 - Processing document: TS-2024-HALE-SENSOR-001_Technical_Specification.pdf (contract)
+2026-08-14 10:07:28.716 | INFO     | app.worker:process_document:60 - Extracted 8 text pages and 8 tables from TS-2024-HALE-SENSOR-001_Technical_Specification.pdf
+2026-08-14 10:07:28.765 | INFO     | app.worker:process_document:93 - Created 25 chunks for TS-2024-HALE-SENSOR-001_Technical_Specification.pdf
+2026-08-14 10:07:35.735 | INFO     | app.worker:process_document:114 - Embedded 25 chunks for TS-2024-HALE-SENSOR-001_Technical_Specification.pdf
+2026-08-14 10:09:18.203 | INFO     | app.api.documents:upload_document:48 - Document uploaded by user@user.com: Mutual_NDA_and_Confidentiality_Agreement.pdf (DocumentType.contract)
+2026-08-14 10:09:18.257 | INFO     | app.worker:process_document:32 - Processing document: Mutual_NDA_and_Confidentiality_Agreement.pdf (contract)
+2026-08-14 10:09:21.295 | INFO     | app.worker:process_document:60 - Extracted 18 text pages and 0 tables from Mutual_NDA_and_Confidentiality_Agreement.pdf
+2026-08-14 10:09:21.308 | INFO     | app.worker:process_document:93 - Created 31 chunks for Mutual_NDA_and_Confidentiality_Agreement.pdf
+2026-08-14 10:09:25.800 | INFO     | app.worker:process_document:114 - Embedded 31 chunks for Mutual_NDA_and_Confidentiality_Agreement.pdf
+2026-08-14 11:40:38.806 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-14 11:48:59.818 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-14 11:50:16.923 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-14 11:51:13.706 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-14 11:56:01.799 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-14 12:00:34.221 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-14 12:16:03.160 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-14 12:32:31.023 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-14 12:38:52.845 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-14 12:41:27.609 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-14 12:42:44.979 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-14 12:51:39.472 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-14 13:03:07.733 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-14 13:04:27.479 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-14 13:05:25.001 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-14 13:06:09.667 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-14 13:08:57.464 | INFO     | app.services.query_rewrite_service:rewrite_query:29 - Query rewritten: 'What must the Receiving Party do upon written request of the Disclosing Party (or upon expiration/termination) regarding Confidential Information, and within what timeframe?  Can it retain any copy?' -> 'What actions must the Receiving Party take regarding Confidential Information upon written request from the Disclosing Party or upon expiration/termination, and what is the timeframe for these actions? Is retention of any copy allowed?'
+2026-08-14 13:09:38.428 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-14 13:09:58.296 | INFO     | app.services.query_rewrite_service:rewrite_query:29 - Query rewritten: 'What must the Receiving Party do upon written request of the Disclosing Party (or upon expiration/termination) regarding Confidential Information, and within what timeframe?  Can it retain any copy?' -> 'What actions must the Receiving Party take regarding Confidential Information upon written request from the Disclosing Party or upon expiration/termination, and what is the timeframe for these actions? Is retention of any copy allowed?'
+2026-08-14 13:10:59.469 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-14 13:11:16.191 | INFO     | app.services.query_rewrite_service:rewrite_query:29 - Query rewritten: 'What must the Receiving Party do upon written request of the Disclosing Party (or upon expiration/termination) regarding Confidential Information, and within what timeframe?  Can it retain any copy?' -> 'What must the Receiving Party do upon written request of the Disclosing Party (or upon expiration/termination) regarding Confidential Information, and within what timeframe? Can it retain any copy?'
+2026-08-14 13:34:47.573 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-14 13:59:29.417 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-14 14:04:23.591 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-14 14:21:26.232 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-14 15:46:54.313 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-14 15:50:59.766 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-14 20:34:05.287 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-14 20:50:35.142 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-14 20:56:17.848 | INFO     | app.api.documents:upload_document:48 - Document uploaded by user@user.com: Requirements.pdf (DocumentType.general)
+2026-08-14 20:56:57.888 | INFO     | app.worker:process_document:32 - Processing document: Requirements.pdf (general)
+2026-08-14 20:56:58.433 | INFO     | app.worker:process_document:60 - Extracted 4 text pages and 0 tables from Requirements.pdf
+2026-08-14 20:56:58.529 | INFO     | app.worker:process_document:93 - Created 4 chunks for Requirements.pdf
+2026-08-14 20:57:05.895 | INFO     | app.worker:process_document:114 - Embedded 4 chunks for Requirements.pdf
+2026-08-14 21:43:44.227 | INFO     | app.api.documents:upload_document:48 - Document uploaded by user1@user1.com: sample_Defense_contract.pdf (DocumentType.contract)
+2026-08-14 21:43:44.427 | INFO     | app.worker:process_document:32 - Processing document: sample_Defense_contract.pdf (contract)
+2026-08-14 21:44:04.454 | INFO     | app.worker:process_document:60 - Extracted 83 text pages and 28 tables from sample_Defense_contract.pdf
+2026-08-14 21:44:04.588 | INFO     | app.worker:process_document:93 - Created 163 chunks for sample_Defense_contract.pdf
+2026-08-14 21:44:16.968 | INFO     | app.worker:process_document:114 - Embedded 163 chunks for sample_Defense_contract.pdf
+2026-08-14 21:49:24.279 | INFO     | app.services.query_rewrite_service:rewrite_query:29 - Query rewritten: 'okay, then what are the three most important requirements for this contarct?' -> 'What are the three most important requirements for this contract?'
+2026-08-14 21:50:37.393 | INFO     | app.services.query_rewrite_service:rewrite_query:29 - Query rewritten: 'Most important things about advance bank guarantee?' -> 'What are the most important aspects of an advance bank guarantee?'
+2026-08-15 10:52:54.674 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
+2026-08-15 12:14:25.708 | INFO     | app.main:on_startup:54 - Starting RAG Platform in development mode
+2026-08-15 12:18:49.073 | INFO     | app.main:on_startup:54 - Starting RAG Platform in development mode

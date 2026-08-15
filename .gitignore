@@ -1,0 +1,9 @@
+.env
+storage/
+sql_doc_comnamds.txt
+venv/
+logs/
+__pycache__/
+*.pyc
+node_modules/
+.next/
