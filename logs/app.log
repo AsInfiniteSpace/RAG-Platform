@@ -562,3 +562,6 @@ LINE 1: INSERT INTO document_chunks (id, document_id, start_page, en...
 2026-08-16 13:21:16.433 | INFO     | app.worker:process_document:97 - Created 14 chunks for Preprint version2 6july26.pdf
 2026-08-16 13:21:21.043 | INFO     | app.worker:process_document:118 - Embedded 14 chunks for Preprint version2 6july26.pdf
 2026-08-16 13:22:17.081 | INFO     | app.api.documents:delete_document:129 - Document and all related data (including scoped conversations) deleted by user3@user3.com: Preprint version2 6july26.pdf
+2026-08-16 13:47:49.559 | INFO     | app.main:on_startup:63 - Starting RAG Platform in development mode
+2026-08-16 14:21:48.947 | INFO     | app.main:on_startup:63 - Starting RAG Platform in development mode
+2026-08-16 14:23:47.070 | INFO     | app.main:on_startup:63 - Starting RAG Platform in development mode
