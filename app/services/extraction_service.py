@@ -1,13 +1,14 @@
+import io
 import pdfplumber
 from loguru import logger
 
 
-def extract_pdf_content(file_path: str, has_borderless_tables: bool = False) -> dict:
+def extract_pdf_content(file_bytes: bytes, has_borderless_tables: bool = False) -> dict:
     text_pages = []
     tables = []
     table_settings = {"vertical_strategy": "text", "horizontal_strategy": "text"} if has_borderless_tables else {}
 
-    with pdfplumber.open(file_path) as pdf:
+    with pdfplumber.open(io.BytesIO(file_bytes)) as pdf:
         for i, page in enumerate(pdf.pages, start=1):
             found_tables = page.find_tables(table_settings=table_settings) if table_settings else page.find_tables()
             table_bboxes = [t.bbox for t in found_tables]

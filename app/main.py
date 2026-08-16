@@ -35,6 +35,15 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+"""app.add_middleware(
+    CORSMiddleware,
+    allow_origins=[
+        "https://zgk0jppn-3000.inc1.devtunnels.ms",
+    ],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)"""
 
 
 

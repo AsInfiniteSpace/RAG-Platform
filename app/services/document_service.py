@@ -1,4 +1,3 @@
-import os
 import uuid
 import hashlib
 from sqlalchemy.orm import Session
@@ -6,6 +5,7 @@ from loguru import logger
 from fastapi import HTTPException
 from app.core.config import settings
 from app.models.document import Document
+from app.services.storage.factory import get_storage_provider
 
 
 def save_document(db: Session, owner_id, filename: str, file_bytes: bytes, document_type: str) -> Document:
@@ -15,38 +15,30 @@ def save_document(db: Session, owner_id, filename: str, file_bytes: bytes, docum
         Document.owner_id == owner_id,
         Document.file_hash == file_hash,
     ).first()
-
     if existing:
-        raise HTTPException(
-            status_code=409,
-            detail=f"Already uploaded as '{existing.filename}' (status: {existing.status})",
-        )
-
-    user_folder = os.path.join(settings.storage_path, str(owner_id))
-    os.makedirs(user_folder, exist_ok=True)
+        raise HTTPException(status_code=409, detail=f"Already uploaded as '{existing.filename}' (status: {existing.status})")
 
     document_id = uuid.uuid4()
-    file_path = os.path.join(user_folder, f"{document_id}_{filename}")
+    storage_key = f"{owner_id}/{document_id}_{filename}"
 
-    with open(file_path, "wb") as buffer:
-        buffer.write(file_bytes)
+    storage = get_storage_provider()
+    storage.save(storage_key, file_bytes)
 
     try:
         document = Document(
             id=document_id,
             owner_id=owner_id,
             filename=filename,
-            file_path=file_path,
+            file_path=storage_key,
             file_hash=file_hash,
             document_type=document_type,
             file_size_bytes=len(file_bytes),
-            status="uploaded",
         )
         db.add(document)
         db.commit()
         db.refresh(document)
         return document
     except Exception:
-        os.remove(file_path)
-        logger.error(f"Failed to save document record, removed orphaned file: {file_path}")
+        storage.delete(storage_key)
+        logger.error(f"Failed to save document record, removed orphaned file: {storage_key}")
         raise

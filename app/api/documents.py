@@ -22,6 +22,7 @@ from app.models.conversation import Conversation
 from app.models.message import Message
 from app.core.limiter import limiter
 from app.services.usage_service import check_storage_quota, check_token_quota
+from app.services.storage.factory import get_storage_provider
 
 
 
@@ -120,8 +121,8 @@ def delete_document(document_id: uuid.UUID, current_user: User = Depends(get_cur
     db.query(DocumentTable).filter(DocumentTable.document_id == document_id).delete()
     db.query(DocumentPage).filter(DocumentPage.document_id == document_id).delete()
 
-    if os.path.exists(document.file_path):
-        os.remove(document.file_path)
+    storage = get_storage_provider()
+    storage.delete(document.file_path)
 
     db.delete(document)
     db.commit()

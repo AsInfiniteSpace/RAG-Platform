@@ -492,3 +492,73 @@ LINE 1: INSERT INTO document_chunks (id, document_id, start_page, en...
 2026-08-15 10:52:54.674 | INFO     | app.main:on_startup:52 - Starting RAG Platform in development mode
 2026-08-15 12:14:25.708 | INFO     | app.main:on_startup:54 - Starting RAG Platform in development mode
 2026-08-15 12:18:49.073 | INFO     | app.main:on_startup:54 - Starting RAG Platform in development mode
+2026-08-15 12:26:31.065 | INFO     | app.main:on_startup:54 - Starting RAG Platform in development mode
+2026-08-15 20:57:02.249 | INFO     | app.main:on_startup:54 - Starting RAG Platform in development mode
+2026-08-15 21:26:16.631 | INFO     | app.main:on_startup:63 - Starting RAG Platform in development mode
+2026-08-15 21:27:10.969 | INFO     | app.main:on_startup:63 - Starting RAG Platform in development mode
+2026-08-15 21:28:59.329 | INFO     | app.main:on_startup:63 - Starting RAG Platform in development mode
+2026-08-15 21:43:46.632 | INFO     | app.main:on_startup:63 - Starting RAG Platform in development mode
+2026-08-15 22:00:02.657 | INFO     | app.main:on_startup:63 - Starting RAG Platform in development mode
+2026-08-15 22:01:31.001 | INFO     | app.main:on_startup:63 - Starting RAG Platform in development mode
+2026-08-16 10:17:31.368 | INFO     | app.main:on_startup:63 - Starting RAG Platform in development mode
+2026-08-16 10:38:11.049 | INFO     | app.main:on_startup:63 - Starting RAG Platform in development mode
+2026-08-16 10:38:45.822 | INFO     | app.main:on_startup:63 - Starting RAG Platform in development mode
+2026-08-16 10:39:39.483 | INFO     | app.main:on_startup:63 - Starting RAG Platform in development mode
+2026-08-16 10:42:16.377 | INFO     | app.main:on_startup:63 - Starting RAG Platform in development mode
+2026-08-16 10:43:01.196 | INFO     | app.main:on_startup:63 - Starting RAG Platform in development mode
+2026-08-16 10:43:23.410 | INFO     | app.main:on_startup:63 - Starting RAG Platform in development mode
+2026-08-16 10:48:59.136 | INFO     | app.main:on_startup:63 - Starting RAG Platform in development mode
+2026-08-16 10:50:10.214 | INFO     | app.main:on_startup:63 - Starting RAG Platform in development mode
+2026-08-16 10:52:16.397 | INFO     | app.main:on_startup:63 - Starting RAG Platform in development mode
+2026-08-16 10:57:47.127 | INFO     | app.main:on_startup:63 - Starting RAG Platform in development mode
+2026-08-16 11:06:59.923 | INFO     | app.main:on_startup:63 - Starting RAG Platform in development mode
+2026-08-16 11:07:38.149 | INFO     | app.main:on_startup:63 - Starting RAG Platform in development mode
+2026-08-16 11:27:01.558 | INFO     | app.main:on_startup:63 - Starting RAG Platform in development mode
+2026-08-16 11:30:33.625 | INFO     | app.main:on_startup:63 - Starting RAG Platform in development mode
+2026-08-16 11:32:52.528 | INFO     | app.main:on_startup:63 - Starting RAG Platform in development mode
+2026-08-16 11:40:14.175 | INFO     | app.main:on_startup:63 - Starting RAG Platform in development mode
+2026-08-16 11:41:10.554 | INFO     | app.api.documents:upload_document:49 - Document uploaded by user1@user1.com: Dhiirajj_CV.pdf (DocumentType.resume)
+2026-08-16 11:42:11.252 | INFO     | app.worker:process_document:33 - Processing document: Dhiirajj_CV.pdf (resume)
+2026-08-16 11:42:11.795 | INFO     | app.worker:process_document:64 - Extracted 3 text pages and 0 tables from Dhiirajj_CV.pdf
+2026-08-16 11:42:11.871 | INFO     | app.worker:process_document:97 - Created 3 chunks for Dhiirajj_CV.pdf
+2026-08-16 11:42:19.059 | INFO     | app.worker:process_document:118 - Embedded 3 chunks for Dhiirajj_CV.pdf
+2026-08-16 11:45:49.364 | INFO     | app.api.documents:reindex_document:168 - Reindex triggered by user1@user1.com: Dhiirajj_CV.pdf
+2026-08-16 11:45:49.519 | INFO     | app.worker:process_document:33 - Processing document: Dhiirajj_CV.pdf (resume)
+2026-08-16 11:45:50.104 | INFO     | app.worker:process_document:64 - Extracted 3 text pages and 0 tables from Dhiirajj_CV.pdf
+2026-08-16 11:45:50.108 | INFO     | app.worker:process_document:97 - Created 3 chunks for Dhiirajj_CV.pdf
+2026-08-16 11:45:54.131 | INFO     | app.worker:process_document:118 - Embedded 3 chunks for Dhiirajj_CV.pdf
+2026-08-16 11:47:59.218 | INFO     | app.api.documents:delete_document:129 - Document and all related data (including scoped conversations) deleted by user1@user1.com: Dhiirajj_CV.pdf
+2026-08-16 12:07:31.032 | INFO     | app.main:on_startup:63 - Starting RAG Platform in development mode
+2026-08-16 12:10:05.199 | INFO     | app.api.documents:upload_document:49 - Document uploaded by user3@user3.com: Dhiirajj_CV.pdf (DocumentType.resume)
+2026-08-16 12:10:05.518 | INFO     | app.worker:process_document:33 - Processing document: Dhiirajj_CV.pdf (resume)
+2026-08-16 12:10:06.324 | INFO     | app.worker:process_document:64 - Extracted 3 text pages and 0 tables from Dhiirajj_CV.pdf
+2026-08-16 12:10:06.360 | INFO     | app.worker:process_document:97 - Created 3 chunks for Dhiirajj_CV.pdf
+2026-08-16 12:10:11.593 | INFO     | app.worker:process_document:118 - Embedded 3 chunks for Dhiirajj_CV.pdf
+2026-08-16 12:13:44.946 | INFO     | app.main:on_startup:63 - Starting RAG Platform in development mode
+2026-08-16 12:18:03.620 | INFO     | app.main:on_startup:63 - Starting RAG Platform in development mode
+2026-08-16 12:19:53.303 | INFO     | app.main:on_startup:63 - Starting RAG Platform in development mode
+2026-08-16 12:33:25.002 | INFO     | app.main:on_startup:63 - Starting RAG Platform in development mode
+2026-08-16 12:34:06.298 | INFO     | app.api.documents:upload_document:49 - Document uploaded by user3@user3.com: Preprint version2 6july26.pdf (DocumentType.research_paper)
+2026-08-16 12:34:06.774 | INFO     | app.worker:process_document:33 - Processing document: Preprint version2 6july26.pdf (research_paper)
+2026-08-16 12:34:11.346 | INFO     | app.worker:process_document:64 - Extracted 7 text pages and 0 tables from Preprint version2 6july26.pdf
+2026-08-16 12:34:11.376 | INFO     | app.worker:process_document:97 - Created 14 chunks for Preprint version2 6july26.pdf
+2026-08-16 12:34:17.761 | INFO     | app.worker:process_document:118 - Embedded 14 chunks for Preprint version2 6july26.pdf
+2026-08-16 12:35:26.941 | INFO     | app.api.documents:reindex_document:168 - Reindex triggered by user3@user3.com: Preprint version2 6july26.pdf
+2026-08-16 12:35:27.396 | INFO     | app.worker:process_document:33 - Processing document: Preprint version2 6july26.pdf (research_paper)
+2026-08-16 12:35:32.405 | INFO     | app.worker:process_document:64 - Extracted 7 text pages and 0 tables from Preprint version2 6july26.pdf
+2026-08-16 12:35:32.411 | INFO     | app.worker:process_document:97 - Created 14 chunks for Preprint version2 6july26.pdf
+2026-08-16 12:35:36.405 | INFO     | app.worker:process_document:118 - Embedded 14 chunks for Preprint version2 6july26.pdf
+2026-08-16 12:35:43.453 | INFO     | app.api.documents:delete_document:129 - Document and all related data (including scoped conversations) deleted by user3@user3.com: Preprint version2 6july26.pdf
+2026-08-16 12:45:12.683 | INFO     | app.api.documents:upload_document:49 - Document uploaded by user3@user3.com: Preprint version2 6july26.pdf (DocumentType.research_paper)
+2026-08-16 12:45:12.821 | INFO     | app.worker:process_document:33 - Processing document: Preprint version2 6july26.pdf (research_paper)
+2026-08-16 12:45:16.578 | INFO     | app.worker:process_document:64 - Extracted 7 text pages and 0 tables from Preprint version2 6july26.pdf
+2026-08-16 12:45:16.585 | INFO     | app.worker:process_document:97 - Created 14 chunks for Preprint version2 6july26.pdf
+2026-08-16 12:45:19.211 | INFO     | app.worker:process_document:118 - Embedded 14 chunks for Preprint version2 6july26.pdf
+2026-08-16 12:52:35.956 | INFO     | app.api.documents:delete_document:129 - Document and all related data (including scoped conversations) deleted by user3@user3.com: Preprint version2 6july26.pdf
+2026-08-16 13:19:34.051 | INFO     | app.main:on_startup:63 - Starting RAG Platform in development mode
+2026-08-16 13:21:10.610 | INFO     | app.api.documents:upload_document:49 - Document uploaded by user3@user3.com: Preprint version2 6july26.pdf (DocumentType.general)
+2026-08-16 13:21:11.074 | INFO     | app.worker:process_document:33 - Processing document: Preprint version2 6july26.pdf (general)
+2026-08-16 13:21:16.410 | INFO     | app.worker:process_document:64 - Extracted 7 text pages and 0 tables from Preprint version2 6july26.pdf
+2026-08-16 13:21:16.433 | INFO     | app.worker:process_document:97 - Created 14 chunks for Preprint version2 6july26.pdf
+2026-08-16 13:21:21.043 | INFO     | app.worker:process_document:118 - Embedded 14 chunks for Preprint version2 6july26.pdf
+2026-08-16 13:22:17.081 | INFO     | app.api.documents:delete_document:129 - Document and all related data (including scoped conversations) deleted by user3@user3.com: Preprint version2 6july26.pdf

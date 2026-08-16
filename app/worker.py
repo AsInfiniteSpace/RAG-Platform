@@ -16,6 +16,7 @@ from app.services.embedding_service import generate_embeddings_batch
 from app.services.usage_service import check_token_quota, log_usage
 from app.core.deps import get_current_user
 from app.services.usage_service import is_within_token_quota
+from app.services.storage.factory import get_storage_provider
 
 setup_logging()
 
@@ -33,10 +34,13 @@ async def process_document(ctx, document_id: str):
         document.status = "processing"
         db.commit()
 
-        if not document.file_path.lower().endswith(".pdf"):
-            raise ValueError(f"Unsupported file type for extraction: {document.filename}")
+        '''if not document.file_path.lower().endswith(".pdf"):
+            raise ValueError(f"Unsupported file type for extraction: {document.filename}")'''
 
-        content = extract_pdf_content(document.file_path)
+        storage = get_storage_provider()
+        file_bytes = storage.read(document.file_path)
+
+        content = extract_pdf_content(file_bytes)
         merged_tables = merge_continued_tables(content["tables"])
 
         if not content["text_pages"] and not content["tables"]:
