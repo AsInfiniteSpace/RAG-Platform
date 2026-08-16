@@ -16,9 +16,7 @@ from app.services.embedding_service import generate_embeddings_batch
 from app.services.usage_service import check_token_quota, log_usage
 from app.core.deps import get_current_user
 from app.services.usage_service import is_within_token_quota
-from app.services.storage import get_storage_provider
-
-
+from app.services.storage.factory import get_storage_provider
 setup_logging()
 
 
