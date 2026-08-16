@@ -19,10 +19,6 @@ class Settings(BaseSettings):
     jwt_algorithm: str = "HS256"
     jwt_expire_minutes: int = 60 * 24  # tokens valid for 24 hours
 
-    storage_path: str = "storage"
-
-    
-
     cookie_name: str = "access_token"
     cookie_secure: bool = False
     cookie_samesite: str = "lax"
