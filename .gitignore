@@ -1,5 +1,5 @@
 .env
-storage/
+/storage/
 sql_doc_comnamds.txt
 venv/
 logs/
