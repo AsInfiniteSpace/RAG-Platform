@@ -21,7 +21,7 @@ def send_contact_email(
     mail["Reply-To"] = email
 
     mail.set_content(
-        f"""New contact form message
+        f"""New contact form message 
 
 Name: {name}
 Email: {email}
