@@ -21,4 +21,4 @@ class ChatQuery(BaseModel):
     conversation_id: uuid.UUID | None = None  # None = start a new conversation
     document_type: DocumentType | None = None
     document_id: uuid.UUID | None = None
-    top_k: int = 5
+    top_k: int = 8

@@ -59,7 +59,7 @@ def list_eval_questions(
 @limiter.limit("10/minute")
 def run_eval(
     request: Request,
-    top_k: int = 10,
+    top_k: int = 8,
     question_id: uuid.UUID | None = None,
     current_user: User = Depends(get_current_user),
     db: Session = Depends(get_db),
