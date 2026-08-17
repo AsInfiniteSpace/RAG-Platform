@@ -1,3 +1,4 @@
+import socket
 import smtplib
 
 from email.message import EmailMessage
@@ -31,14 +32,24 @@ Message:
 """
     )
 
-    with smtplib.SMTP(
+    # Resolve SMTP server using IPv4 only.
+    smtp_ip = socket.getaddrinfo(
         settings.smtp_host,
+        settings.smtp_port,
+        socket.AF_INET,
+        socket.SOCK_STREAM,
+    )[0][4][0]
+
+    with smtplib.SMTP(
+        smtp_ip,
         settings.smtp_port,
         timeout=20,
     ) as smtp:
 
         smtp.ehlo()
+
         smtp.starttls()
+
         smtp.ehlo()
 
         smtp.login(
