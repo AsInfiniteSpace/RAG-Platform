@@ -1,10 +1,11 @@
 import time
-
+from app.core.logging import setup_logging
 from fastapi import APIRouter, HTTPException, Request
 
 from app.schemas.contact import ContactRequest
 from app.services.email import send_contact_email
 
+logger = setup_logging()
 
 router = APIRouter(
     prefix="/contact",
@@ -98,7 +99,7 @@ def submit_contact_form(
         }
 
     except Exception:
-
+        logger.exception("Contact form submission failed")
         raise HTTPException(
             status_code=500,
             detail=(
