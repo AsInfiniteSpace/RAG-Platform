@@ -873,46 +873,58 @@ export default function ChatPage() {
 
                                 <div className="mx-auto max-w-4xl">
 
-                                    <div className="flex items-end gap-2 rounded-2xl border border-gray-300 bg-gray-50 p-2 focus-within:border-blue-400 focus-within:ring-2 focus-within:ring-blue-100 sm:gap-3">
+                                    <div className="rounded-2xl border border-gray-300 bg-gray-50 p-2 focus-within:border-blue-400 focus-within:ring-2 focus-within:ring-blue-100">
 
-                                        <input
-                                            value={query}
-                                            onChange={(event) =>
-                                                setQuery(
-                                                    event.target.value
-                                                )
-                                            }
-                                            onKeyDown={(event) => {
+                                        <div className="flex items-center">
 
-                                                if (
-                                                    event.key === "Enter" &&
-                                                    !event.shiftKey
-                                                ) {
-
-                                                    event.preventDefault();
-
-                                                    handleSend();
-
+                                            <input
+                                                value={query}
+                                                onChange={(event) =>
+                                                    setQuery(event.target.value)
                                                 }
+                                                onKeyDown={(event) => {
 
-                                            }}
-                                            placeholder="Ask a question about your documents..."
-                                            disabled={sending}
-                                            className="flex-1 bg-transparent px-3 py-2.5 text-sm text-gray-900 outline-none placeholder:text-gray-400 disabled:opacity-50"
-                                        />
+                                                    if (
+                                                        event.key === "Enter" &&
+                                                        !event.shiftKey
+                                                    ) {
 
+                                                        event.preventDefault();
+
+                                                        handleSend();
+
+                                                    }
+
+                                                }}
+                                                placeholder="Ask a question about your documents..."
+                                                disabled={sending}
+                                                className="min-w-0 flex-1 bg-transparent px-3 py-2.5 text-sm text-gray-900 outline-none placeholder:text-gray-400 disabled:opacity-50"
+                                            />
+
+                                            {/* Desktop Send button */}
+                                            <button
+                                                onClick={handleSend}
+                                                disabled={
+                                                    sending ||
+                                                    !query.trim()
+                                                }
+                                                className="hidden shrink-0 rounded-xl bg-blue-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-blue-700 disabled:cursor-not-allowed disabled:opacity-40 sm:block"
+                                            >
+                                                {sending ? "Sending..." : "Send"}
+                                            </button>
+
+                                        </div>
+
+                                        {/* Mobile Send button */}
                                         <button
                                             onClick={handleSend}
                                             disabled={
                                                 sending ||
                                                 !query.trim()
                                             }
-                                            className="shrink-0 rounded-xl bg-blue-600 px-4 py-2.5 text-sm font-medium text-white transition hover:bg-blue-700 disabled:cursor-not-allowed disabled:opacity-40 sm:px-5"
+                                            className="mt-2 block w-full rounded-xl bg-blue-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-blue-700 disabled:cursor-not-allowed disabled:opacity-40 sm:hidden"
                                         >
-                                            {sending
-                                                ? "Sending..."
-                                                : "Send"
-                                            }
+                                            {sending ? "Sending..." : "Send"}
                                         </button>
 
                                     </div>
