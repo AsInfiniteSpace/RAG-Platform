@@ -492,6 +492,88 @@ export default function Home() {
 
             </section>
 
+            {/* Free Plan */}
+
+            <section className="border-y border-slate-200 bg-slate-50">
+
+                <div className="mx-auto max-w-5xl px-6 py-16 md:px-10">
+
+                    <div className="text-center">
+
+                        <div className="inline-flex rounded-full bg-indigo-50 px-4 py-2 text-xs font-semibold uppercase tracking-wider text-indigo-700">
+                            FREE PLAN
+                        </div>
+
+                        <h2 className="mt-4 text-3xl font-bold text-slate-900">
+                            Start free. Explore the platform.
+                        </h2>
+
+                        <p className="mx-auto mt-3 max-w-2xl text-sm leading-6 text-slate-500">
+                            Every free account includes generous limits to help you
+                            get started with your document intelligence journey.
+                        </p>
+
+                    </div>
+
+
+                    <div className="mt-10 grid gap-5 md:grid-cols-3">
+
+                        <div className="rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm">
+
+                            <div className="text-4xl font-bold text-indigo-600">
+                                50,000
+                            </div>
+
+                            <div className="mt-2 text-lg font-semibold text-slate-900">
+                                AI Tokens
+                            </div>
+
+                            <p className="mt-1 text-sm text-slate-500">
+                                per month
+                            </p>
+
+                        </div>
+
+
+                        <div className="rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm">
+
+                            <div className="text-4xl font-bold text-emerald-600">
+                                500
+                            </div>
+
+                            <div className="mt-2 text-lg font-semibold text-slate-900">
+                                Search Units
+                            </div>
+
+                            <p className="mt-1 text-sm text-slate-500">
+                                per month
+                            </p>
+
+                        </div>
+
+
+                        <div className="rounded-2xl border border-slate-200 bg-white p-6 text-center shadow-sm">
+
+                            <div className="text-4xl font-bold text-violet-600">
+                                100 MB
+                            </div>
+
+                            <div className="mt-2 text-lg font-semibold text-slate-900">
+                                Document Storage
+                            </div>
+
+                            <p className="mt-1 text-sm text-slate-500">
+                                included
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </section>
+
 
             {/* CTA */}
 
