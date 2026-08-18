@@ -599,15 +599,15 @@ export default function EvaluationPage() {
                                 className="w-full rounded-xl border border-gray-300 bg-white px-3 py-2.5 text-gray-900 focus:border-indigo-500 focus:outline-none focus:ring-2 focus:ring-indigo-100"
                             >
 
-                                <option value={5}>
+                                <option value={8}>
                                     5
                                 </option>
 
-                                <option value={10}>
+                                <option value={12}>
                                     10
                                 </option>
 
-                                <option value={15}>
+                                <option value={16}>
                                     15
                                 </option>
 
