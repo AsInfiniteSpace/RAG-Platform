@@ -64,6 +64,8 @@ export default function ChatPage() {
         (document) => document.status === "ready"
     );
 
+    const [showMobileChat, setShowMobileChat] = useState(false);
+
     const availableDocumentTypes = [
         ...new Set(
             readyDocuments.map(
@@ -133,6 +135,7 @@ export default function ChatPage() {
             ) {
                 setSelectedConversation(null);
                 setMessages([]);
+                setShowMobileChat(false);
             }
 
         } catch (err: any) {
@@ -233,6 +236,8 @@ export default function ChatPage() {
             setMessages(
                 conversation.messages
             );
+
+            setShowMobileChat(true);
 
         } catch (err: any) {
 
@@ -390,6 +395,7 @@ export default function ChatPage() {
 
         setError("");
 
+        setShowMobileChat(true);
     }
 
         /*
@@ -468,7 +474,11 @@ export default function ChatPage() {
 
                         {/* Conversations Sidebar */}
 
-                        <aside className="flex w-72 shrink-0 flex-col border-r border-slate-200 bg-slate-50">
+                        <aside
+                            className={`w-full shrink-0 flex-col border-r border-slate-200 bg-slate-50 md:flex md:w-72 ${
+                                showMobileChat ? "hidden" : "flex"
+                            }`}
+                        >
 
                             <div className="border-b border-gray-200 p-5">
 
@@ -621,9 +631,10 @@ export default function ChatPage() {
                                                                 rounded-lg
                                                                 p-2
                                                                 text-gray-400
-                                                                opacity-0
+                                                                opacity-100
                                                                 transition
-                                                                group-hover:opacity-100
+                                                                md:opacity-0
+                                                                md:group-hover:opacity-100
                                                                 hover:bg-red-50
                                                                 hover:text-red-600
                                                             "
@@ -648,29 +659,44 @@ export default function ChatPage() {
 
                         {/* Main Chat */}
 
-                        <section className="flex min-w-0 flex-1 flex-col bg-white">
+                        <section
+                            className={`min-w-0 flex-1 flex-col bg-white ${
+                                showMobileChat ? "flex" : "hidden"
+                            } md:flex`}
+                        >
 
 
                             {/* Chat Header */}
 
-                            <div className="border-b border-slate-200 bg-white px-6 py-4">
+                            <div className="border-b border-slate-200 bg-white px-4 py-4 md:px-6">
 
-                                <div className="flex items-center justify-between gap-4">
+                                <div className="flex items-center justify-between gap-3">
 
-                                    <div>
+                                    {/* Mobile back button */}
+
+                                    <button
+                                        type="button"
+                                        onClick={() => setShowMobileChat(false)}
+                                        className="mr-1 flex h-9 w-9 shrink-0 items-center justify-center rounded-lg border border-slate-200 bg-white text-slate-600 transition hover:bg-slate-50 md:hidden"
+                                        aria-label="Back to conversations"
+                                    >
+                                        ←
+                                    </button>
+
+                                    <div className="min-w-0 flex-1">
 
                                         <h2 className="text-lg font-semibold text-gray-900">
                                             Document Chat
                                         </h2>
 
-                                        <p className="mt-0.5 text-sm text-gray-500">
+                                        <p className="mt-0.5 truncate text-sm text-gray-500">
                                             Ask questions across your knowledge base
                                         </p>
 
                                     </div>
 
 
-                                    <div className="flex items-center gap-3">
+                                    <div className="flex shrink-0 flex-col items-end gap-2 sm:flex-row sm:items-center sm:gap-3">
 
                                         {/* Document Type */}
 
@@ -683,6 +709,7 @@ export default function ChatPage() {
                                                 )
                                             }
                                             className="rounded-xl border border-gray-300 bg-white px-3 py-2 text-sm text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-500"
+
                                         >
 
                                             <option value="">
@@ -713,7 +740,7 @@ export default function ChatPage() {
                                                 )
                                             }
                                             disabled={!documentType}
-                                            className="max-w-64 rounded-xl border border-gray-300 bg-white px-3 py-2 text-sm text-gray-800 disabled:bg-gray-100 disabled:text-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500"
+                                            className="w-36 max-w-64 rounded-xl border border-gray-300 bg-white px-3 py-2 text-xs text-gray-800 disabled:bg-gray-100 disabled:text-gray-400 focus:outline-none focus:ring-2 focus:ring-blue-500 sm:w-auto sm:text-sm"
                                         >
 
                                             <option value="">
@@ -758,7 +785,7 @@ export default function ChatPage() {
 
                             {/* Messages */}
 
-                            <div className="min-h-0 flex-1 overflow-y-auto bg-slate-50/40 px-8 py-6">
+                            <div className="min-h-0 flex-1 overflow-y-auto bg-slate-50/40 px-4 py-5 sm:px-6 sm:py-6 md:px-8">
 
                                 {loadingConversation ? (
 
@@ -842,11 +869,11 @@ export default function ChatPage() {
 
                             {/* Input */}
 
-                            <div className="border-t border-slate-200 bg-white p-5">
+                            <div className="border-t border-slate-200 bg-white p-3 sm:p-5">
 
                                 <div className="mx-auto max-w-4xl">
 
-                                    <div className="flex items-end gap-3 rounded-2xl border border-gray-300 bg-gray-50 p-2 focus-within:border-blue-400 focus-within:ring-2 focus-within:ring-blue-100">
+                                    <div className="flex items-end gap-2 rounded-2xl border border-gray-300 bg-gray-50 p-2 focus-within:border-blue-400 focus-within:ring-2 focus-within:ring-blue-100 sm:gap-3">
 
                                         <input
                                             value={query}
@@ -880,7 +907,7 @@ export default function ChatPage() {
                                                 sending ||
                                                 !query.trim()
                                             }
-                                            className="rounded-xl bg-blue-600 px-5 py-2.5 text-sm font-medium text-white transition hover:bg-blue-700 disabled:cursor-not-allowed disabled:opacity-40"
+                                            className="shrink-0 rounded-xl bg-blue-600 px-4 py-2.5 text-sm font-medium text-white transition hover:bg-blue-700 disabled:cursor-not-allowed disabled:opacity-40 sm:px-5"
                                         >
                                             {sending
                                                 ? "Sending..."
