@@ -489,15 +489,15 @@ export default function RetrievalPage() {
                                 >
 
                                     <option value={8}>
-                                        Top 5
+                                        Top 8
                                     </option>
 
                                     <option value={12}>
-                                        Top 10
+                                        Top 12
                                     </option>
 
                                     <option value={16}>
-                                        Top 15
+                                        Top 16
                                     </option>
 
                                     <option value={20}>

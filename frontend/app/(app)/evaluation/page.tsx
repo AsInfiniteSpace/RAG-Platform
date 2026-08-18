@@ -600,15 +600,15 @@ export default function EvaluationPage() {
                             >
 
                                 <option value={8}>
-                                    5
+                                    8
                                 </option>
 
                                 <option value={12}>
-                                    10
+                                    12
                                 </option>
 
                                 <option value={16}>
-                                    15
+                                    16
                                 </option>
 
                                 <option value={20}>
