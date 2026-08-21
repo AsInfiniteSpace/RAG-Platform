@@ -4,3 +4,5 @@ token-aware chunking, pgvector embeddings, hybrid retrieval + reranking, grounde
 multi-turn query rewriting, persistent conversations, a real evaluation harness (retrieval + LLM-judge faithfulness),
 RBAC/admin, observability, rate limiting, and provider-aware usage quotas.
 Deployed: Next.js on Vercel, FastAPI+worker+Postgres+Redis on Railway, Backblaze B2 for storage.
+
+Check it out live - https://rag-platform-xi.vercel.app/
