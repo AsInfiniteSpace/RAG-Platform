@@ -19,5 +19,4 @@ class DocumentType(str, Enum):
     invoice = "invoice"
     resume = "resume"
     contract = "contract"
-    research_paper = "research_paper"
     general = "general"
