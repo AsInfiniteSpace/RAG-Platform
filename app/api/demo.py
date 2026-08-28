@@ -18,9 +18,18 @@ from app.dependencies.demo_session import (
 
 router = APIRouter(prefix="/demo", tags=["demo"])
 
-DEMO_OWNER_ID = '11c1c18b-770e-47d4-8f18-01addd21d026'        # the account id that owns the ingested demo document
-DEMO_DOCUMENT_ID = 'ab2ad751-dd15-43be-80bf-55f3e8835174'    # the demo document's id
+# +++++++  for local environment ++++++
+# DEMO_OWNER_ID = '11c1c18b-770e-47d4-8f18-01addd21d026'        # the account id that owns the ingested demo document
+# DEMO_DOCUMENT_ID = 'ab2ad751-dd15-43be-80bf-55f3e8835174'    # the demo document's id
+# DEMO_TOP_K = 6
+
+# +++++++  for production environment ++++++
+DEMO_OWNER_ID = 'b7425b75-84c9-4918-9769-07dc11b7fb7d'        # user@user.com   the account id that owns the ingested demo document
+DEMO_DOCUMENT_ID = '9a346fd7-e313-4881-a558-260c6b57ddbc'    # the demo document's id
 DEMO_TOP_K = 6
+
+
+
 
 class DemoChatRequest(BaseModel):
     question: str
