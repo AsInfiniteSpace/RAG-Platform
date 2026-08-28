@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { useAuth } from "@/context/AuthContext";
 import Container from "@/components/Container";
+import ContactLink from "@/components/ContactLink";
 
 export default function Navbar() {
     const { user, loading } = useAuth();
@@ -11,7 +12,10 @@ export default function Navbar() {
                 <Link href="/" className="font-display text-lg font-semibold text-ink">
                     RAG Platform
                 </Link>
-                <nav className="flex items-center gap-4 font-mono text-sm">
+                <nav className="flex items-center gap-5 font-mono text-sm">
+                    <ContactLink className="text-ink-500 hover:text-ink">
+                        Contact
+                    </ContactLink>
                     {!loading && user ? (
                         <Link href="/dashboard" className="rounded-lg bg-ink px-4 py-2 text-white">
                             Dashboard

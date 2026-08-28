@@ -7,7 +7,9 @@ import TryItLiveSection from "@/components/TryItLiveSection";
 import ComparisonSection from "@/components/ComparisonSection";
 import FreePlanSection from "@/components/FreePlanSection";
 import FinalCTASection from "@/components/FinalCTASection";
+import ContactSection from "@/components/ContactSection";
 import VerifiedStamp from "@/components/VerifiedStamp";
+
 import Link from "next/link";
 
 export default function Home() {
@@ -50,6 +52,7 @@ export default function Home() {
             <ComparisonSection />
             <FreePlanSection />
             <FinalCTASection />
+            <ContactSection />
         </main>
     );
 }
