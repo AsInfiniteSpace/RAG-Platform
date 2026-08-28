@@ -22,7 +22,6 @@ const documentTypes: DocumentType[] = [
     "invoice",
     "resume",
     "contract",
-    "research_paper",
     "general",
 ];
 

@@ -12,6 +12,23 @@
   --font-mono: var(--font-geist-mono);
 }
 
+@theme {
+    --font-display: var(--font-display);
+    --font-body: var(--font-body);
+    --font-mono: var(--font-mono);
+
+    --color-ink: #1C1C1E;
+    --color-ink-500: #5C5C60;
+
+    --color-surface: #FFFFFF;
+    --color-surface-muted: #F4F3EF;
+
+    --color-accent: #059669;
+    --color-accent-dark: #047857;
+
+    --color-line: #E5E3DD;
+}
+
 @media (prefers-color-scheme: dark) {
   :root {
     --background: #0a0a0a;

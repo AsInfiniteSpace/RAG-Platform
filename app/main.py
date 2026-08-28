@@ -12,7 +12,7 @@ from app.api.conversations import router as conversations_router
 from app.api.admin import router as admin_router
 from app.api.user_usage import router as user_usage
 from app.api.contact import router as contact_router
-
+from app.api.demo import router as demo_router
 
 from slowapi import _rate_limit_exceeded_handler
 from slowapi.errors import RateLimitExceeded
@@ -58,6 +58,7 @@ app.include_router(conversations_router)
 app.include_router(admin_router)
 app.include_router(user_usage)
 app.include_router(contact_router)
+app.include_router(demo_router)
 
 @app.on_event("startup")
 def on_startup():

@@ -53,5 +53,4 @@ export type DocumentType =
     | "invoice"
     | "resume"
     | "contract"
-    | "research_paper"
     | "general";
