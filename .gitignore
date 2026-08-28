@@ -11,4 +11,4 @@ node_modules/
 /check_chunks.py
 /heading_detector.py
 /semantic_chunker.py
-/structure_extractor.py
+/structure_extractor.py"logs/" 
